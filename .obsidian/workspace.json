@@ -1,0 +1,271 @@
+{
+  "main": {
+    "id": "d02f5298420b313b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ddc5b361007bab9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3e25e5e760c8736",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Habits Tracker.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Habits Tracker"
+            }
+          },
+          {
+            "id": "d990615f9b0f2c48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/Journal/Daily/2026-04-03-00.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-03-00"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf51a12ddbe9469d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8a3ca19379cce79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "244eb184a9bde3ae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b77d0a3f596c98e9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "298a9729b7e3f550",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9d84e358199ecd6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf6b9def27018623",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6049456ff60e63cf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Template/Daily-TEMPLATE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Daily-TEMPLATE 的反向链接列表"
+            }
+          },
+          {
+            "id": "00cc90fc9c9bc7cb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Template/Daily-TEMPLATE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Daily-TEMPLATE 的出链列表"
+            }
+          },
+          {
+            "id": "b93bbbeb63e27ac1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "7a56877cf23eadbf",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "b571718c4be0f22f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "未命名 2.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "未命名 2 的大纲"
+            }
+          },
+          {
+            "id": "c58da2a1d277345b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "31a5d2d4829dd3fe",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "8e0ede864f7a2cf4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "d990615f9b0f2c48",
+  "lastOpenFiles": [
+    "2026-04.md",
+    "Calendar/Journal/Daily/2026-04-03-00.md",
+    "Habits Tracker.md",
+    "Templater/Daily-TEMPLATE.md",
+    "高数/知识卡片/奇偶函数.md",
+    "Bases/Calendar.base",
+    "Bases/On This Day.base",
+    "高数/知识卡片/奇偶性.md",
+    "2026-Q2.md",
+    "2026-04-04.md",
+    "2026-04-02.md",
+    "Calendar/Journal/Monthily",
+    "Calendar/Journal/Weekily",
+    "Calendar/Journal/Daily",
+    "Calendar/Journal/Untitled.md",
+    "Templater",
+    "PixPin_2026-04-03_10-36-46.png",
+    "anki复习.base",
+    "Calendar/Fleeting",
+    "未命名 2.md",
+    "未命名 1.base",
+    "未命名.md",
+    "未命名.base",
+    "未命名 1.md",
+    "PixPin_2026-04-03_10-37-37.png",
+    "PixPin_2026-04-03_10-37-24.png",
+    "高数/gaoshubiji.md",
+    "高数/demo.md",
+    "高数/maps test.md",
+    "未命名.canvas",
+    "2026-04-03.md",
+    "创建链接.md",
+    "欢迎.md"
+  ]
+}

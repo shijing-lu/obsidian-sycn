@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: 表格
+  - type: map
+    name: maps
+    filters:
+      and:
+        - file.tags.contains("trip")
+    order:
+      - file.backlinks
+    center: "[32.04511, 118.77922]"
+    coordinates: note.coordinates
+    markerIcon: note.icon
+    markerColor: note.color
+    mapHeight: 380
+    defaultZoom: 12
+  - type: table
+    name: 视图
