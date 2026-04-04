@@ -1,42 +1,102 @@
 {
   "main": {
-    "id": "d02f5298420b313b",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "8ddc5b361007bab9",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "f3e25e5e760c8736",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Habits Tracker.md",
-                "mode": "preview",
-                "source": true
+                "file": "Bases/maps.base",
+                "viewName": "maps"
               },
-              "icon": "lucide-file",
-              "title": "Habits Tracker"
+              "icon": "lucide-map",
+              "title": "maps"
             }
           },
           {
-            "id": "d990615f9b0f2c48",
+            "id": "c080c5da92a74619",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "6e5d4e52b1ca50ae",
+            "type": "leaf",
+            "state": {
+              "type": "langr-reading",
+              "state": {
+                "file": "Postgraduate Entrance Examination/english/word/part1.md"
+              },
+              "icon": "highlight-glyph",
+              "title": "part1"
+            }
+          },
+          {
+            "id": "6da7432416f21e37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/Journal/Daily/2026-04-03-00.md",
+                "file": "Postgraduate Entrance Examination/english/word/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-03-00"
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "21dedbe3219593e8",
+            "type": "leaf",
+            "state": {
+              "type": "langr-data-panel",
+              "state": {},
+              "icon": "database",
+              "title": "Data Panel"
+            }
+          },
+          {
+            "id": "c9833ef4ea2c113e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bases/reviewDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "reviewDB"
+            }
+          },
+          {
+            "id": "1ecfff17659015d9",
+            "type": "leaf",
+            "state": {
+              "type": "langr-reading",
+              "state": {
+                "file": "Postgraduate Entrance Examination/english/article/Text1.md"
+              },
+              "icon": "highlight-glyph",
+              "title": "Text1"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -68,15 +128,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "Learner",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -86,14 +146,24 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "书签"
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "9ebacb379a9c5ad9",
+            "type": "leaf",
+            "state": {
+              "type": "langr-search-panel",
+              "state": {},
+              "icon": "book",
+              "title": "Search Panel"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 384.5
   },
   "right": {
     "id": "9d84e358199ecd6b",
@@ -102,6 +172,7 @@
       {
         "id": "cf6b9def27018623",
         "type": "tabs",
+        "dimension": 65.98837209302326,
         "children": [
           {
             "id": "6049456ff60e63cf",
@@ -109,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/Daily-TEMPLATE.md",
+                "file": "plugins test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +190,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Daily-TEMPLATE 的反向链接列表"
+              "title": "Backlinks for plugins test"
             }
           },
           {
@@ -128,12 +199,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/Daily-TEMPLATE.md",
+                "file": "高数/知识卡片/奇偶函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Daily-TEMPLATE 的出链列表"
+              "title": "Outgoing links from 奇偶函数"
             }
           },
           {
@@ -148,7 +219,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "标签"
+              "title": "Tags"
             }
           },
           {
@@ -162,7 +233,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "添加笔记属性"
+              "title": "All properties"
             }
           },
           {
@@ -171,13 +242,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 2.base",
-                "followCursor": false,
+                "file": "Home.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 2 的大纲"
+              "title": "Outline of Home"
             }
           },
           {
@@ -191,13 +262,15 @@
             }
           },
           {
-            "id": "31a5d2d4829dd3fe",
+            "id": "226235c7fde7989c",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "type": "file-properties",
+              "state": {
+                "file": "temp/Math-And-English-Library/02_英语/01_语法/01_简单句/Lecture 3：情态.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Lecture 3：情态"
             }
           },
           {
@@ -209,13 +282,70 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "edbf9eb45851afe6",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "606b51b165a3475e",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "44f6422a897411ba",
+            "type": "leaf",
+            "state": {
+              "type": "langr-learn-panel",
+              "state": {},
+              "icon": "reading-glasses",
+              "title": "Learning New Words"
+            }
+          },
+          {
+            "id": "279ff7b7da8c066c",
+            "type": "leaf",
+            "state": {
+              "type": "langr-stat",
+              "state": {},
+              "icon": "bar-chart-4",
+              "title": "Statistics"
+            }
           }
         ],
         "currentTab": 7
+      },
+      {
+        "id": "e868b0fd5506164e",
+        "type": "tabs",
+        "dimension": 34.01162790697675,
+        "children": [
+          {
+            "id": "22efa2bbd314e7c9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,45 +358,66 @@
       "bases:Create new base": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "claudian:Open Claudian": false,
+      "terminal:Open terminal": false,
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "periodic-notes:Open today": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-language-learner:Open word search panel": false,
+      "obsidian-language-learner:Open new word panel": false,
+      "obsidian-language-learner:Open statistics": false,
+      "obsidian-language-learner:Data Panel": false
     }
   },
-  "active": "d990615f9b0f2c48",
+  "active": "1ecfff17659015d9",
   "lastOpenFiles": [
-    "text fold/dsajfhjdaks.md",
-    "Calendar/Journal/Daily/2026-04-03-00.md",
-    "text fold",
-    "2026-04.md",
+    "Bases/reviewDB.md",
+    "Postgraduate Entrance Examination/english/article/Text4.md",
+    "Postgraduate Entrance Examination/english/article/Text3.md",
+    "Postgraduate Entrance Examination/english/article/Text2.md",
+    "Postgraduate Entrance Examination/english/article/Text1.md",
+    "Postgraduate Entrance Examination/english/article/Trans.md",
+    "Postgraduate Entrance Examination/english/article/Text5.md",
+    "Postgraduate Entrance Examination/english/article",
+    "Postgraduate Entrance Examination/english/word/Untitled.md",
+    "Untitled.base",
+    "Postgraduate Entrance Examination/english/word/part1.md",
+    "Postgraduate Entrance Examination/english/Untitled.md",
+    "Postgraduate Entrance Examination/english/word/part3.md",
+    "Postgraduate Entrance Examination/english/word/part2.md",
+    "Postgraduate Entrance Examination/english/word/part6.md",
+    "Postgraduate Entrance Examination/english/word/part5.md",
+    "Postgraduate Entrance Examination/english/word/part4.md",
+    "Postgraduate Entrance Examination/english/word",
+    "plugins test.md",
+    "Postgraduate Entrance Examination/english",
+    "Postgraduate Entrance Examination",
+    "Untitled",
+    "userGuide/spaced Repetion Card Preparation method.md",
     "Habits Tracker.md",
+    "userGuide/Obsidian Various Complements.md",
+    "Bases/English learn save databases 1.md",
     "Templater/Daily-TEMPLATE.md",
-    "高数/知识卡片/奇偶函数.md",
+    "Bases/wordDB.md",
     "Bases/Calendar.base",
+    "userGuide/language learner user guide.md",
+    "Calendar/Journal/Daily/2026-04-03-00.md",
+    "Bases/maps.base",
+    "Bases/English word review save databases.md",
+    "Home.md",
+    "Excalidraw",
     "Bases/On This Day.base",
-    "高数/知识卡片/奇偶性.md",
-    "2026-Q2.md",
-    "2026-04-04.md",
-    "2026-04-02.md",
-    "Calendar/Journal/Monthily",
-    "Calendar/Journal/Weekily",
-    "Calendar/Journal/Daily",
-    "Calendar/Journal/Untitled.md",
-    "Templater",
-    "PixPin_2026-04-03_10-36-46.png",
-    "anki复习.base",
-    "Calendar/Fleeting",
-    "未命名 2.md",
-    "未命名 1.base",
-    "未命名.md",
-    "未命名 1.md",
-    "PixPin_2026-04-03_10-37-37.png",
-    "PixPin_2026-04-03_10-37-24.png",
-    "高数/gaoshubiji.md",
-    "高数/demo.md",
-    "高数/maps test.md",
-    "未命名.canvas",
-    "2026-04-03.md",
-    "创建链接.md",
-    "欢迎.md"
+    "temp/Math-And-English-Library/00_附件/Drawing 2024-06-29 19.34.16.excalidraw.png",
+    "temp/Math-And-English-Library/00_附件/Pasted image 20250409112224.png",
+    "temp/Math-And-English-Library/00_附件/Pasted image 20250409112119.png",
+    "temp/Math-And-English-Library/00_附件/Pasted image 20250409112043.png",
+    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111926.png",
+    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111851.png",
+    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111832.png",
+    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111642.png",
+    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111436.png",
+    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111403.png",
+    "未命名.canvas"
   ]
 }

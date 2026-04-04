@@ -1,0 +1,19 @@
+{
+  "id": "conv-1775196408911-pstif2f36",
+  "title": "nihao",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775196408912,
+  "updatedAt": 1775203281932,
+  "lastResponseAt": 1775202841368,
+  "sessionId": "8715a00b-1fb7-435a-93dd-999319388c44",
+  "sdkSessionId": "8715a00b-1fb7-435a-93dd-999319388c44",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

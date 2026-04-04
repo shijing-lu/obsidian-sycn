@@ -1,0 +1,19 @@
+{
+  "id": "conv-1775192798665-sz0h1oesy",
+  "title": "把我的文件夹和文件名都修改为英文",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775192798666,
+  "updatedAt": 1775203281928,
+  "lastResponseAt": 1775197588898,
+  "sessionId": "6f31282f-b78f-4553-87b7-2be3729b76b1",
+  "sdkSessionId": "6f31282f-b78f-4553-87b7-2be3729b76b1",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

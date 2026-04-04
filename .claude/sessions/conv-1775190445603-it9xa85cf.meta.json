@@ -1,0 +1,22 @@
+{
+  "id": "conv-1775190445603-it9xa85cf",
+  "title": "你好",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775190445603,
+  "updatedAt": 1775195862955,
+  "lastResponseAt": 1775195801479,
+  "sessionId": "ed8550d2-733b-4c7e-8f6a-3e7648ca569b",
+  "sdkSessionId": "ed8550d2-733b-4c7e-8f6a-3e7648ca569b",
+  "externalContextPaths": [
+    "D:\\confuse deer's space\\.obsidian\\snippets"
+  ],
+  "usage": {
+    "model": "opus",
+    "inputTokens": 30697,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 30697,
+    "percentage": 15
+  }
+}

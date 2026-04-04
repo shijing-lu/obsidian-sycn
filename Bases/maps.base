@@ -1,6 +1,4 @@
 views:
-  - type: table
-    name: 表格
   - type: map
     name: maps
     filters:
@@ -14,5 +12,3 @@ views:
     markerColor: note.color
     mapHeight: 380
     defaultZoom: 12
-  - type: table
-    name: 视图

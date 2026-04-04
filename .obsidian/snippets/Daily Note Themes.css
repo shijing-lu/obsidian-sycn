@@ -49,51 +49,84 @@ change or remove those font-family lines from this snippet.
 
 .sunday,
 .Sunday {
-  --highlight: #f39caa;
-  --primary: #f6466f;
-  --dark: #2d0916;
+  --highlight: #EDE0D4;
+  --primary: #C4A882;
+  --dark: #6B5744;
 }
 
 .monday,
 .Monday {
-  --highlight: #fcadaa;
-  --primary: #f65848;
-  --dark: #3c0e0b;
+  --highlight: #DDE5D8;
+  --primary: #8BA888;
+  --dark: #445C42;
 }
 
 .tuesday,
 .Tuesday {
-  --highlight: #aedbfa;
-  --primary: #3b87f0;
-  --dark: #070615;
+  --highlight: #D8E0E8;
+  --primary: #8AA5B8;
+  --dark: #3D5566;
 }
 
 .wednesday,
 .Wednesday {
-  --highlight: #fff3c4;
-  --primary: #ffd63d;
-  --dark: #2c1404;
+  --highlight: #E8E0D8;
+  --primary: #B8A898;
+  --dark: #5C4D40;
 }
 
 .thursday,
 .Thursday {
-  --highlight: #f7b79b;
-  --primary: #ed6022;
-  --dark: #210b04;
+  --highlight: #E0D8E8;
+  --primary: #A898C4;
+  --dark: #4D3D66;
 }
 
 .friday,
 .Friday {
-  --highlight: #e9f9b7;
-  --primary: #92e649;
-  --dark: #192108;
+  --highlight: #2C3E35;
+  --primary: #3D6655;
+  --dark: #F5F0E8;
+  background-image: url("【哲风壁纸】云朵-旷野郊游.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  position: relative;
+}
+
+/* Friday 背景图半透明遮罩 - 让文字清晰可读 */
+.friday .markdown-preview-view,
+.Friday .markdown-preview-view,
+.friday .cm-editor .cm-scroller,
+.Friday .cm-editor .cm-scroller {
+  background: none !important;
+}
+
+.friday::before,
+.Friday::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(245, 240, 232, 0.60);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.friday > *,
+.Friday > * {
+  position: relative;
+  z-index: 1;
 }
 
 .saturday,
 .Saturday {
-  --highlight: #f39caa;
-  --primary: #e22c3c;
-  --dark: #100305;
+  --highlight: #E8D8E0;
+  --primary: #C498A8;
+  --dark: #664455;
 }
 
 .daily :is(h1, .HyperMD-header.HyperMD-header-1) {
