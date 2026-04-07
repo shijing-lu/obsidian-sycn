@@ -1,6 +1,7 @@
 ---
-langr : xxx
+langr: xxx
 langr-origin: 2022-英语一-Text2
+langr-pos: "1"
 ---
 
 The Telegraph: Don't Fixate over Your UCAS Form--One Degree Won't Define Generation Z
@@ -23,4 +24,13 @@ Older generations often talk about their degree in the present and personal tens
 
 
 ^^^words
++ **decent** : adj. 像样的，尚好的；得体的，合宜的；<非正式>穿好衣服的；正派的，规矩的；待人宽厚的，和善的
++ **diversity** : n. 多样性，多样化；不同，差异
++ **fulfilment** : n. 满足感，成就感；履行，实现；发生，应验
++ **millennials** : n. 千禧世代；千禧之子；千禧一代（millennial 的复数）
++ **scrapping** : v. 废弃；取消（计划等）；打架；激烈竞争（scrap 的现在分词）
++ **wanting** : adj. 缺乏的；欠缺的；不存在的，没有的；（非正式）弱智的
+v. 想要；需要……在场；对……有性欲；缺少；想请教；（警方）缉拿；（非正式）需要；（非正式）应该；缺少（一定的量或某个东西）；要求（某人）到来（want 的现在分词）
+prep. 没有；除去
+
 ^^^notes

@@ -1,0 +1,204 @@
+{
+  "id": "fea17538-4931-40a9-8dcd-47e517403a58",
+  "title": "你好",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n你好\n\n"
+        }
+      ],
+      "id": "66a1fd54-0c90-44cc-bde3-bfb7f064bbf8",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "常用基本极限.md"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n你好\n\n"
+        }
+      ],
+      "id": "c2c5c23d-c9ec-4834-9af7-99d4f85efe58",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "常用基本极限.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "我来帮你整理这个极限公式的笔记。以下是优化后的版本，结构更清晰，内容更完整：\n\n<smtcmp_block filename=\"常用基本极限.md\" language=\"markdown\">\n# 常用基本极限公式\n\n## 一、基本极限公式\n\n| 类型 | 极限公式 | 备注 |\n|------|----------|------|\n| 基本型 | $$\\lim_{x\\to 0}\\frac{\\sin x}{x}=1$$ | 最基础的极限公式 |\n| 重要极限① | \\(\\lim_{x\\to\\infty}\\left(1+\\frac{1}{x}\\right)^x=e\\) | \\(1^\\infty\\) 型极限 |\n| 重要极限② | \\(\\lim_{x\\to 0}(1+x)^{1/x}=e\\) | 重要极限的另一种形式 |\n| 重要极限②变形 | \\(\\lim_{x\\to 0}\\frac{a^x-1}{x}=\\ln a\\) | 指数函数的极限形式 |\n| 对数型 | \\(\\lim_{x\\to 0}\\frac{\\ln(1+x)}{x}=1\\) | 对数函数的极限形式 |\n| 指数型 | \\(\\lim_{x\\to 0}\\frac{e^x-1}{x}=1\\) | 自然指数函数的极限形式 |\n| 幂函数型 | \\(\\lim_{x\\to 0}\\frac{(1+x)^\\alpha-1}{x}=\\alpha\\) | 幂函数的极限形式 |\n\n## 二、无穷型极限（\\(x\\to\\infty\\)）\n\n| 类型 | 极限公式 | 条件 |\n|------|----------|------|\n| 多项式之比 | \\(\\lim_{x\\to\\infty}\\frac{P_n(x)}{Q_m(x)}= \\begin{cases}\\dfrac{a_n}{b_m}, & n=m\\\\0, & n<m\\\\\\infty, & n>m\\end{cases}\\) | \\(P_n(x)\\), \\(Q_m(x)\\) 分别为 n 次和 m 次多项式 |\n| 对数 vs 幂函数 | \\(\\lim_{x\\to+\\infty}\\frac{\\ln x}{x^a}=0\\) | \\(a>0\\) |\n| 幂函数 vs 指数 | \\(\\lim_{x\\to+\\infty}\\frac{x^a}{e^x}=0\\) | \\(a>0\\) |\n| n次根（常数） | \\(\\lim_{n\\to\\infty}\\sqrt[n]{a}=1\\) | \\(a>0\\) |\n| n次根（变量） | \\(\\lim_{n\\to\\infty}\\sqrt[n]{n}=1\\) | - |\n\n## 三、常用等价无穷小（\\(x\\to 0\\)）\n\n| 等价无穷小关系 | 备注 |\n|----------------|------|\n| \\(\\sin x\\sim x\\) | 三角函数等价无穷小 |\n| \\(\\tan x\\sim x\\) | 三角函数等价无穷小 |\n| \\(\\arcsin x\\sim x\\) | 反三角函数等价无穷小 |\n| \\(\\arctan x\\sim x\\) | 反三角函数等价无穷小 |\n| \\(1-\\cos x\\sim\\dfrac{x^2}{2}\\) | 三角函数等价无穷小 |\n| \\(\\ln(1+x)\\sim x\\) | 对数函数等价无穷小 |\n| \\(e^x-1\\sim x\\) | 指数函数等价无穷小 |\n| \\((1+x)^\\alpha-1\\sim \\alpha x\\) | 幂函数等价无穷小 |\n| \\(a^x-1\\sim x\\ln a\\) | 指数函数等价无穷小（\\(a>0\\)） |\n\n> **注**：使用等价无穷小替换时，只能在乘除运算中使用，不能在加减运算中直接使用。\n</smtcmp_block>\n\n主要改进：\n1. 添加了文档标题和清晰的章节划分\n2. 调整了表格顺序，使逻辑更清晰\n3. 补充了遗漏的 \\(\\arctan x \\sim x\\) 等价无穷小\n4. 为部分公式添加了更精确的条件说明\n5. 添加了使用等价无穷小的注意事项\n6. 统一了格式和排版，使整体更美观易读",
+      "id": "eb3612ef-b822-414f-8afe-f49779c8f21f",
+      "metadata": {
+        "model": {
+          "providerId": "LongCat-Flash-Chat",
+          "providerType": "openai-compatible",
+          "id": "LongCat-Flash-Chat",
+          "model": "LongCat-Flash-Chat",
+          "promptLevel": 1,
+          "enable": true
+        },
+        "usage": {
+          "completion_tokens": 851,
+          "prompt_tokens": 1115,
+          "total_tokens": 1966,
+          "cache_write_tokens": 0,
+          "cache_read_tokens": 0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "里面的所有格式按照$$\\lim_{x\\to 0}\\frac{\\sin x}{x}=1$$ 更新一下",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n里面的所有格式按照$$\\lim_{x\\to 0}\\frac{\\sin x}{x}=1$$ 更新一下\n\n\n"
+        }
+      ],
+      "id": "f6954280-1a5a-4ce4-9483-61d3734a9167",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "常用基本极限.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "好的，我会将所有极限公式统一为 `$$...$$` 的块级公式格式。以下是更新后的版本：\n\n<smtcmp_block filename=\"常用基本极限.md\" language=\"markdown\">\n# 常用基本极限公式\n\n## 一、基本极限公式\n\n| 类型 | 极限公式 | 备注 |\n|------|----------|------|\n| 基本型 | $$\\lim_{x\\to 0}\\frac{\\sin x}{x}=1$$ | 最基础的极限公式 |\n| 重要极限① | $$\\lim_{x\\to\\infty}\\left(1+\\frac{1}{x}\\right)^x=e$$ | \\(1^\\infty\\) 型极限 |\n| 重要极限② | $$\\lim_{x\\to 0}(1+x)^{1/x}=e$$ | 重要极限的另一种形式 |\n| 重要极限②变形 | $$\\lim_{x\\to 0}\\frac{a^x-1}{x}=\\ln a$$ | 指数函数的极限形式 |\n| 对数型 | $$\\lim_{x\\to 0}\\frac{\\ln(1+x)}{x}=1$$ | 对数函数的极限形式 |\n| 指数型 | $$\\lim_{x\\to 0}\\frac{e^x-1}{x}=1$$ | 自然指数函数的极限形式 |\n| 幂函数型 | $$\\lim_{x\\to 0}\\frac{(1+x)^\\alpha-1}{x}=\\alpha$$ | 幂函数的极限形式 |\n\n## 二、无穷型极限（\\(x\\to\\infty\\)）\n\n| 类型 | 极限公式 | 条件 |\n|------|----------|------|\n| 多项式之比 | $$\\lim_{x\\to\\infty}\\frac{P_n(x)}{Q_m(x)}= \\begin{cases}\\dfrac{a_n}{b_m}, & n=m\\\\0, & n<m\\\\\\infty, & n>m\\end{cases}$$ | \\(P_n(x)\\), \\(Q_m(x)\\) 分别为 n 次和 m 次多项式 |\n| 对数 vs 幂函数 | $$\\lim_{x\\to+\\infty}\\frac{\\ln x}{x^a}=0$$ | \\(a>0\\) |\n| 幂函数 vs 指数 | $$\\lim_{x\\to+\\infty}\\frac{x^a}{e^x}=0$$ | \\(a>0\\) |\n| n次根（常数） | $$\\lim_{n\\to\\infty}\\sqrt[n]{a}=1$$ | \\(a>0\\) |\n| n次根（变量） | $$\\lim_{n\\to\\infty}\\sqrt[n]{n}=1$$ | - |\n\n## 三、常用等价无穷小（\\(x\\to 0\\)）\n\n| 等价无穷小关系 | 备注 |\n|----------------|------|\n| $$\\sin x\\sim x$$ | 三角函数等价无穷小 |\n| $$\\tan x\\sim x$$ | 三角函数等价无穷小 |\n| $$\\arcsin x\\sim x$$ | 反三角函数等价无穷小 |\n| $$\\arctan x\\sim x$$ | 反三角函数等价无穷小 |\n| $$1-\\cos x\\sim\\dfrac{x^2}{2}$$ | 三角函数等价无穷小 |\n| $$\\ln(1+x)\\sim x$$ | 对数函数等价无穷小 |\n| $$e^x-1\\sim x$$ | 指数函数等价无穷小 |\n| $$(1+x)^\\alpha-1\\sim \\alpha x$$ | 幂函数等价无穷小 |\n| $$a^x-1\\sim x\\ln a$$ | 指数函数等价无穷小（\\(a>0\\)） |\n\n> **注**：使用等价无穷小替换时，只能在乘除运算中使用，不能在加减运算中直接使用。\n</smtcmp_block>\n\n所有极限公式现在都使用 `$$...$$` 的块级公式格式，保持了一致的显示效果。这样在 Obsidian 中渲染时，所有公式都会以较大的块级形式显示，视觉效果更加统一。",
+      "id": "124a8dd0-fa9f-4bbf-9946-6bd0adb8c1a7",
+      "metadata": {
+        "model": {
+          "providerId": "LongCat-Flash-Chat",
+          "providerType": "openai-compatible",
+          "id": "LongCat-Flash-Chat",
+          "model": "LongCat-Flash-Chat",
+          "promptLevel": 1,
+          "enable": true
+        },
+        "usage": {
+          "completion_tokens": 814,
+          "prompt_tokens": 2056,
+          "total_tokens": 2870,
+          "cache_write_tokens": 0,
+          "cache_read_tokens": 0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  ],
+  "createdAt": 1775538160030,
+  "updatedAt": 1775538441613,
+  "schemaVersion": 1
+}

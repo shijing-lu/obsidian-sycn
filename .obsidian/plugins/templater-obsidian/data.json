@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "",
+  "templates_folder": "Templater",
   "templates_pairs": [
     [
       "",
@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "Templater",
+      "template": "Templater/Mathematical formula.md"
     }
   ],
   "enable_file_templates": false,

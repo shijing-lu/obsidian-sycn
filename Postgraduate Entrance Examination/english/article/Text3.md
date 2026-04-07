@@ -1,6 +1,7 @@
 ---
-langr : xxx
+langr: xxx
 langr-origin: 2022-英语一-Text3
+langr-pos: "1"
 ---
 
 Nature: Collaborations With Artists Go Beyond Communicating the Science
@@ -21,4 +22,27 @@ Nature's poll findings suggest that this trend is as strong as ever, but, to mak
 
 
 ^^^words
++ **alliances** : n. 联盟，结盟；结盟团体，结盟国家（alliance 的复数）
++ **broader** : adj. 广大的；一片的比较级
++ **collaborations** : n. 协作（collaboration 的复数）
++ **critique** : n. 评论文章，评论；批判
+v. 对……发表评论，评判
++ **deliberately** : adv. 故意地；从容不迫地，小心翼翼地
++ **enlightening** : adj. 启迪的，使人获得启发的
+v. 阐明，指导；教导，启迪；<古>照耀，照亮（物体）（enlighten 的现在分词形式）
+
++ **genuine** : adj. 真正的，非伪造的；真诚的，真心的
++ **go beyond** : 超越：做得比（某事）更多：超过预期或要求。
++ **hence** : adv. 因此；之后
++ **injecting** : v. 注射（inject 的 ing 形式）
++ **poll** : n. 民意调查，民意测验；选举投票，计票；投票数；投票点（the polls）；头顶，头皮；无角动物（尤指无角牛）
+v. 对……进行民意测验（调查）；获得（票数）；（电信，计算机）轮询，探询；截掉（动物，尤指小牛）的角；<古>修枝
++ **simultaneously** : adv. 同时地
++ **stake** : n. 股本，股份；桩，标桩，篱笆桩；赌注；赛马奖金（stakes）；比赛，竞赛（stakes）；利害关系；火刑柱；（制作篮子的）纵向基杆，经条；（铁匠用的）小铁砧；摩门主教管辖区
++ **stereotyping** : n. 刻板印象；浇版
+v. 把……浇铸成铅版；使成为陈规（stereotype 的现在分词）
+
++ **tie-ups** : 1. 合作关系，联盟：两个或多个组织、公司或个人之间的正式或非正式的合作关系。
++ **versa** : adv. 反之亦然（等于 vice versa）
+
 ^^^notes

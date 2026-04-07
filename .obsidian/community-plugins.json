@@ -7,7 +7,6 @@
   "dataview",
   "templater-obsidian",
   "obsidian-git",
-  "claudian",
   "terminal",
   "homepage",
   "easy-typing-obsidian",
@@ -15,5 +14,7 @@
   "obsidian-excalidraw-plugin",
   "hi-words",
   "various-complements",
-  "obsidian-language-learner"
+  "obsidian-language-learner",
+  "smart-connections",
+  "smart-composer"
 ]

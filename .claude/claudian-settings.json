@@ -1,7 +1,7 @@
 {
-  "userName": "天才少年小鹿",
+  "userName": "小鹿",
   "enableBlocklist": true,
-  "allowExternalAccess": true,
+  "allowExternalAccess": false,
   "blockedCommands": {
     "unix": [
       "rm -rf",
@@ -45,8 +45,8 @@
   "effortLevel": "high",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
-  "enableChrome": true,
-  "enableBangBash": true,
+  "enableChrome": false,
+  "enableBangBash": false,
   "enableOpus1M": false,
   "enableSonnet1M": false,
   "excludedTags": [],
@@ -65,7 +65,7 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
-  "locale": "zh-CN",
+  "locale": "en",
   "claudeCliPath": "",
   "claudeCliPathsByHost": {},
   "loadUserClaudeSettings": true,

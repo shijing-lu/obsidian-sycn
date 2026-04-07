@@ -1,0 +1,19 @@
+{
+  "id": "conv-1775297277311-c4ajfau1b",
+  "title": "你好",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775297277311,
+  "updatedAt": 1775527431434,
+  "lastResponseAt": 1775527431434,
+  "sessionId": "5b788c14-9f24-4041-8d34-09ca51b2177f",
+  "sdkSessionId": "5b788c14-9f24-4041-8d34-09ca51b2177f",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

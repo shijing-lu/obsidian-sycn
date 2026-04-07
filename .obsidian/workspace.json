@@ -4,99 +4,80 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "5dad7109da2ea024",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Bases/maps.base",
-                "viewName": "maps"
-              },
-              "icon": "lucide-map",
-              "title": "maps"
-            }
-          },
-          {
-            "id": "c080c5da92a74619",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "6e5d4e52b1ca50ae",
-            "type": "leaf",
-            "state": {
-              "type": "langr-reading",
-              "state": {
-                "file": "Postgraduate Entrance Examination/english/word/part1.md"
-              },
-              "icon": "highlight-glyph",
-              "title": "part1"
-            }
-          },
-          {
-            "id": "6da7432416f21e37",
+            "id": "084b760ed4250101",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Postgraduate Entrance Examination/english/word/Untitled.md",
+                "file": "temp/Math-And-English-Library/01_数学/01_高等数学/6. 第六章：微分方程/Lecture 38：常系数齐次线性微分方程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Lecture 38：常系数齐次线性微分方程"
             }
           },
           {
-            "id": "21dedbe3219593e8",
-            "type": "leaf",
-            "state": {
-              "type": "langr-data-panel",
-              "state": {},
-              "icon": "database",
-              "title": "Data Panel"
-            }
-          },
-          {
-            "id": "c9833ef4ea2c113e",
+            "id": "9098bbfac90f6a02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases/reviewDB.md",
+                "file": "常用等价无穷小.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "reviewDB"
+              "title": "常用等价无穷小"
             }
           },
           {
-            "id": "1ecfff17659015d9",
+            "id": "1610e352e198af61",
             "type": "leaf",
             "state": {
-              "type": "langr-reading",
+              "type": "markdown",
               "state": {
-                "file": "Postgraduate Entrance Examination/english/article/Text1.md"
+                "file": "等价无穷小.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "highlight-glyph",
-              "title": "Text1"
+              "icon": "lucide-file",
+              "title": "等价无穷小"
+            }
+          },
+          {
+            "id": "567d87ebab6d7470",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "无穷型极限.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "无穷型极限"
+            }
+          },
+          {
+            "id": "7ec2c73edbb82c22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用基本极限.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "常用基本极限"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Learner",
+                "query": "tag:#数学公式",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,7 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5
+    "width": 374
   },
   "right": {
     "id": "9d84e358199ecd6b",
@@ -180,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "plugins test.md",
+                "file": "常用基本极限.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +171,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for plugins test"
+              "title": "Backlinks for 常用基本极限"
             }
           },
           {
@@ -242,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "常用基本极限.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of 常用基本极限"
             }
           },
           {
@@ -267,10 +248,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "temp/Math-And-English-Library/02_英语/01_语法/01_简单句/Lecture 3：情态.md"
+                "file": "temp/Math-And-English-Library/01_数学/01_高等数学/6. 第六章：微分方程/Lecture 38：常系数齐次线性微分方程.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Lecture 3：情态"
+              "title": "File properties for Lecture 38：常系数齐次线性微分方程"
             }
           },
           {
@@ -281,16 +262,6 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
-            }
-          },
-          {
-            "id": "edbf9eb45851afe6",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
             }
           },
           {
@@ -322,9 +293,29 @@
               "icon": "bar-chart-4",
               "title": "Statistics"
             }
+          },
+          {
+            "id": "a098f67c3fa8eceb",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "566af8a8f1a14631",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "Smart composer chat"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       },
       {
         "id": "e868b0fd5506164e",
@@ -345,7 +336,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 725
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -359,55 +350,60 @@
       "obsidian-spaced-repetition:Review flashcards": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "claudian:Open Claudian": false,
       "terminal:Open terminal": false,
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "periodic-notes:Open today": false,
       "obsidian-language-learner:Open word search panel": false,
       "obsidian-language-learner:Open new word panel": false,
       "obsidian-language-learner:Open statistics": false,
-      "obsidian-language-learner:Data Panel": false
+      "obsidian-language-learner:Data Panel": false,
+      "claudian:Open Claudian": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections:Smart Lookup: Open lookup view": false,
+      "copilot:Open Copilot Chat": false,
+      "periodic-notes:Open today": false,
+      "smart-composer:Open smart composer": false
     }
   },
-  "active": "1ecfff17659015d9",
+  "active": "084b760ed4250101",
   "lastOpenFiles": [
+    "$/cos x$ 的消 $1$ 特性.md",
+    "temp/Math-And-English-Library/01_数学/01_高等数学/6. 第六章：微分方程/Lecture 38：常系数齐次线性微分方程.md",
+    "copilot/copilot-conversations/Greeting_in_Chinese@20260407_124417.md",
+    "temp/Math-And-English-Library/01_数学/01_高等数学/4. 第四章：不定积分/Lecture 28：不定积分.md",
+    "calculus/knowledge-cards/Collection of formulas/函数、极限、连续.md",
+    "常用等价无穷小.md",
+    "常用基本极限.md",
+    "等价无穷小.md",
+    "无穷型极限.md",
+    "Calendar/Journal/Daily/2026-04-06-00.md",
+    "calculus/knowledge-cards/Collection of formulas/初等函数.md",
+    "calculus/knowledge-cards/Collection of formulas/指数与对数.md",
+    "calculus/knowledge-cards/Collection of formulas/数列与数学归纳法.md",
+    "calculus/knowledge-cards/Collection of formulas/几何基础.md",
+    "calculus/knowledge-cards/Collection of formulas/Untitled 1.md",
+    "写作/在Obsidian中实践Zettelkasten笔记系统.md",
     "Bases/reviewDB.md",
-    "Postgraduate Entrance Examination/english/article/Text4.md",
-    "Postgraduate Entrance Examination/english/article/Text3.md",
-    "Postgraduate Entrance Examination/english/article/Text2.md",
-    "Postgraduate Entrance Examination/english/article/Text1.md",
-    "Postgraduate Entrance Examination/english/article/Trans.md",
-    "Postgraduate Entrance Examination/english/article/Text5.md",
-    "Postgraduate Entrance Examination/english/article",
-    "Postgraduate Entrance Examination/english/word/Untitled.md",
-    "Untitled.base",
-    "Postgraduate Entrance Examination/english/word/part1.md",
-    "Postgraduate Entrance Examination/english/Untitled.md",
-    "Postgraduate Entrance Examination/english/word/part3.md",
-    "Postgraduate Entrance Examination/english/word/part2.md",
-    "Postgraduate Entrance Examination/english/word/part6.md",
-    "Postgraduate Entrance Examination/english/word/part5.md",
-    "Postgraduate Entrance Examination/english/word/part4.md",
-    "Postgraduate Entrance Examination/english/word",
-    "plugins test.md",
-    "Postgraduate Entrance Examination/english",
-    "Postgraduate Entrance Examination",
-    "Untitled",
-    "userGuide/spaced Repetion Card Preparation method.md",
-    "Habits Tracker.md",
-    "userGuide/Obsidian Various Complements.md",
-    "Bases/English learn save databases 1.md",
-    "Templater/Daily-TEMPLATE.md",
-    "Bases/wordDB.md",
-    "Bases/Calendar.base",
-    "userGuide/language learner user guide.md",
-    "Calendar/Journal/Daily/2026-04-03-00.md",
-    "Bases/maps.base",
-    "Bases/English word review save databases.md",
     "Home.md",
-    "Excalidraw",
-    "Bases/On This Day.base",
+    "temp/Math-And-English-Library/01_数学/00_其他/02_公式合集/高等数学 - 公式合集.md",
+    "copilot/copilot-conversations/License_Key_Required@20260407_101539.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "Atlas/常用不等式",
+    "Atlas/几何基础",
+    "Atlas/初等函数",
+    "写作/在Obsidian中实践Zettelkasten笔记系统.md.tmp.34900.1775495353961",
+    "写作/在Obsidian中实践Zettelkasten笔记系统.md.tmp.34900.1775495349341",
+    "写作/在Obsidian中实践Zettelkasten笔记系统.md.tmp.34900.1775495339439",
+    "写作/在Obsidian中实践Zettelkasten笔记系统.md.tmp.34900.1775495326583",
     "temp/Math-And-English-Library/00_附件/Drawing 2024-06-29 19.34.16.excalidraw.png",
     "temp/Math-And-English-Library/00_附件/Pasted image 20250409112224.png",
     "temp/Math-And-English-Library/00_附件/Pasted image 20250409112119.png",

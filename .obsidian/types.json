@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "coordinates": "multitext",
-    "createTime": "datetime"
+    "createTime": "datetime",
+    "created": "text"
   }
 }

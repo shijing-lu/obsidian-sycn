@@ -1,0 +1,19 @@
+{
+  "id": "conv-1775297685881-p1pkoth0l",
+  "title": "写一个obsidian的模板文件，用来创建数学公式，包含属性：创建时间，标签tags",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775297685881,
+  "updatedAt": 1775496644348,
+  "lastResponseAt": 1775496644348,
+  "sessionId": "9ba859cc-9a2d-43f2-b8f1-322fa662d310",
+  "sdkSessionId": "9ba859cc-9a2d-43f2-b8f1-322fa662d310",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}
