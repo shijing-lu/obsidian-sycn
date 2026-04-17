@@ -1,0 +1,1 @@
+$$\sin\mathrm{x=\sum_{n=0}^\infty\frac{(-1)^n}{(2n+1)!}x^{2n+1}=x-\frac1{3!}x^3+\frac1{5!}x^5+\cdots,x\in(-\infty,+\infty)}$$

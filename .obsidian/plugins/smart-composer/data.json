@@ -56,8 +56,8 @@
     {
       "type": "openai-compatible",
       "id": "LongCat-Flash-Chat",
-      "apiKey": "ak_24v1UJ6Er9Sz1oK5i26277xf5RM93",
-      "baseUrl": "https://api.longcat.chat/openai"
+      "baseUrl": "https://api.longcat.chat/openai",
+      "apiKey": "ak_24v1UJ6Er9Sz1oK5i26277xf5RM93"
     }
   ],
   "chatModels": [
@@ -182,8 +182,8 @@
       "model": "grok-4-1-fast-non-reasoning"
     },
     {
-      "providerId": "LongCat-Flash-Chat",
       "providerType": "openai-compatible",
+      "providerId": "LongCat-Flash-Chat",
       "id": "LongCat-Flash-Chat",
       "model": "LongCat-Flash-Chat",
       "promptLevel": 1,

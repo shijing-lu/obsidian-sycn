@@ -1,0 +1,1 @@
+$$\mathrm{e^x=\sum_{n=0}^\infty\frac1{n!}x^n=1+x+\frac1{2!}x^2+\cdots\in(-\infty,+\infty)}$$

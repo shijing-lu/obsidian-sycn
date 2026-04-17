@@ -1,0 +1,21 @@
+{
+  "showUnassigned": true,
+  "showAssigned": true,
+  "threshold": 0,
+  "notificationTimeout": 5,
+  "template": "`{{commandId}}` - {{commandName}} - `{{hotkey}}`\n",
+  "descriptionOfActions": false,
+  "mouseStatistics": {
+    "editor:toggle-source": 2,
+    "obsidian-git:push": 1,
+    "obsidian-git:backup-and-close": 1,
+    "obsidian-git:commit-push-specified-message": 1,
+    "obsidian-git:commit": 1,
+    "obsidian-git:commit-specified-message": 1,
+    "obsidian-git:commit-smart": 1,
+    "obsidian-git:commit-staged": 1,
+    "obsidian-git:commit-smart-specified-message": 1,
+    "obsidian-git:commit-staged-specified-message": 1
+  },
+  "keyboardStatistics": {}
+}

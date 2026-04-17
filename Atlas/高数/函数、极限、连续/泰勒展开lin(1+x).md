@@ -1,0 +1,1 @@
+$$\mathrm{ln(1+x)=\sum_{n=0}^\infty\frac{(-1)^n}{n+1}x^{n+1}=x-\frac12x^2+\frac13x^3+\cdots,x\in(-1,1]}$$

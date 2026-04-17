@@ -4,94 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "5dad7109da2ea024",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "084b760ed4250101",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temp/Math-And-English-Library/01_数学/01_高等数学/6. 第六章：微分方程/Lecture 38：常系数齐次线性微分方程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 38：常系数齐次线性微分方程"
-            }
-          },
-          {
-            "id": "9098bbfac90f6a02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "常用等价无穷小.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "常用等价无穷小"
-            }
-          },
-          {
-            "id": "1610e352e198af61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "等价无穷小.md",
+                "file": "calculus/高数27考研学习总览.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "等价无穷小"
+              "title": "高数27考研学习总览"
             }
           },
           {
-            "id": "567d87ebab6d7470",
+            "id": "b9e248dde87939fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无穷型极限.md",
+                "file": "Atlas/高数/函数、极限、连续/泰勒展开--1%(1+-x).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "无穷型极限"
+              "title": "泰勒展开--1%(1+-x)"
             }
           },
           {
-            "id": "7ec2c73edbb82c22",
+            "id": "41ee414d9c921ae0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用基本极限.md",
+                "file": "Calendar/Journal/Daily/2026-04-17-00.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "常用基本极限"
+              "title": "2026-04-17-00"
+            }
+          },
+          {
+            "id": "1057ee8f06f8e4b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "【例 5.2】解答.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "【例 5.2】解答"
+            }
+          },
+          {
+            "id": "40cf56c04e30e863",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "极限求解技巧点.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "极限求解技巧点"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "cf51a12ddbe9469d",
+    "id": "6d568862d3200dad",
     "type": "split",
     "children": [
       {
-        "id": "a8a3ca19379cce79",
+        "id": "c2fa45a1fd85be8b",
         "type": "tabs",
         "children": [
           {
-            "id": "244eb184a9bde3ae",
+            "id": "059d5aa05308e9f7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -100,68 +101,56 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
-            "id": "b77d0a3f596c98e9",
+            "id": "58ee6f02e0dbd1f4",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#数学公式",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
-            "id": "298a9729b7e3f550",
+            "id": "0100f7064b5e8ccf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "9ebacb379a9c5ad9",
-            "type": "leaf",
-            "state": {
-              "type": "langr-search-panel",
-              "state": {},
-              "icon": "book",
-              "title": "Search Panel"
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 374
+    "width": 300
   },
   "right": {
-    "id": "9d84e358199ecd6b",
+    "id": "47225ffb95736e5f",
     "type": "split",
     "children": [
       {
-        "id": "cf6b9def27018623",
+        "id": "1774342514015a43",
         "type": "tabs",
-        "dimension": 65.98837209302326,
         "children": [
           {
-            "id": "6049456ff60e63cf",
+            "id": "8f42bdeb90531f88",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用基本极限.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,25 +160,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 常用基本极限"
+              "title": "反向链接"
             }
           },
           {
-            "id": "00cc90fc9c9bc7cb",
+            "id": "875d28ed1cf70813",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "高数/知识卡片/奇偶函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 奇偶函数"
+              "title": "出链"
             }
           },
           {
-            "id": "b93bbbeb63e27ac1",
+            "id": "59a7fd5ceae1992c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -200,11 +188,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
-            "id": "7a56877cf23eadbf",
+            "id": "a40426306cec0dfc",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -214,116 +202,25 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "添加笔记属性"
             }
           },
           {
-            "id": "b571718c4be0f22f",
+            "id": "ba98b03531866f8d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用基本极限.md",
-                "followCursor": true,
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 常用基本极限"
+              "title": "大纲"
             }
           },
           {
-            "id": "c58da2a1d277345b",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
-            "id": "226235c7fde7989c",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "temp/Math-And-English-Library/01_数学/01_高等数学/6. 第六章：微分方程/Lecture 38：常系数齐次线性微分方程.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Lecture 38：常系数齐次线性微分方程"
-            }
-          },
-          {
-            "id": "8e0ede864f7a2cf4",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "606b51b165a3475e",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
-            "id": "44f6422a897411ba",
-            "type": "leaf",
-            "state": {
-              "type": "langr-learn-panel",
-              "state": {},
-              "icon": "reading-glasses",
-              "title": "Learning New Words"
-            }
-          },
-          {
-            "id": "279ff7b7da8c066c",
-            "type": "leaf",
-            "state": {
-              "type": "langr-stat",
-              "state": {},
-              "icon": "bar-chart-4",
-              "title": "Statistics"
-            }
-          },
-          {
-            "id": "a098f67c3fa8eceb",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
-            }
-          },
-          {
-            "id": "566af8a8f1a14631",
-            "type": "leaf",
-            "state": {
-              "type": "smtcmp-chat-view",
-              "state": {},
-              "icon": "wand-sparkles",
-              "title": "Smart composer chat"
-            }
-          }
-        ],
-        "currentTab": 11
-      },
-      {
-        "id": "e868b0fd5506164e",
-        "type": "tabs",
-        "dimension": 34.01162790697675,
-        "children": [
-          {
-            "id": "22efa2bbd314e7c9",
+            "id": "3dec3ca4d196d0e9",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -331,89 +228,86 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "622c5198611280ea",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
+            }
+          },
+          {
+            "id": "33b13b3664f3ccc1",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
+          },
+          {
+            "id": "c1f59aec8ddbcbca",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 725
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-spaced-repetition:复习卡片": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "terminal:Open terminal": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-language-learner:Open word search panel": false,
-      "obsidian-language-learner:Open new word panel": false,
-      "obsidian-language-learner:Open statistics": false,
-      "obsidian-language-learner:Data Panel": false,
-      "claudian:Open Claudian": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-language-learner:打开查词面板": false,
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
-      "copilot:Open Copilot Chat": false,
-      "periodic-notes:Open today": false,
-      "smart-composer:Open smart composer": false
+      "smart-composer:Open smart composer": false,
+      "claudian:Open Claudian": false,
+      "media-extended:Open external media": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "084b760ed4250101",
+  "active": "41ee414d9c921ae0",
   "lastOpenFiles": [
-    "$/cos x$ 的消 $1$ 特性.md",
-    "temp/Math-And-English-Library/01_数学/01_高等数学/6. 第六章：微分方程/Lecture 38：常系数齐次线性微分方程.md",
-    "copilot/copilot-conversations/Greeting_in_Chinese@20260407_124417.md",
-    "temp/Math-And-English-Library/01_数学/01_高等数学/4. 第四章：不定积分/Lecture 28：不定积分.md",
-    "calculus/knowledge-cards/Collection of formulas/函数、极限、连续.md",
-    "常用等价无穷小.md",
-    "常用基本极限.md",
-    "等价无穷小.md",
-    "无穷型极限.md",
-    "Calendar/Journal/Daily/2026-04-06-00.md",
-    "calculus/knowledge-cards/Collection of formulas/初等函数.md",
-    "calculus/knowledge-cards/Collection of formulas/指数与对数.md",
-    "calculus/knowledge-cards/Collection of formulas/数列与数学归纳法.md",
-    "calculus/knowledge-cards/Collection of formulas/几何基础.md",
-    "calculus/knowledge-cards/Collection of formulas/Untitled 1.md",
-    "写作/在Obsidian中实践Zettelkasten笔记系统.md",
-    "Bases/reviewDB.md",
-    "Home.md",
-    "temp/Math-And-English-Library/01_数学/00_其他/02_公式合集/高等数学 - 公式合集.md",
-    "copilot/copilot-conversations/License_Key_Required@20260407_101539.md",
-    "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts",
-    "copilot",
-    "Atlas/常用不等式",
-    "Atlas/几何基础",
-    "Atlas/初等函数",
-    "写作/在Obsidian中实践Zettelkasten笔记系统.md.tmp.34900.1775495353961",
-    "写作/在Obsidian中实践Zettelkasten笔记系统.md.tmp.34900.1775495349341",
-    "写作/在Obsidian中实践Zettelkasten笔记系统.md.tmp.34900.1775495339439",
-    "写作/在Obsidian中实践Zettelkasten笔记系统.md.tmp.34900.1775495326583",
-    "temp/Math-And-English-Library/00_附件/Drawing 2024-06-29 19.34.16.excalidraw.png",
-    "temp/Math-And-English-Library/00_附件/Pasted image 20250409112224.png",
-    "temp/Math-And-English-Library/00_附件/Pasted image 20250409112119.png",
-    "temp/Math-And-English-Library/00_附件/Pasted image 20250409112043.png",
-    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111926.png",
-    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111851.png",
-    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111832.png",
-    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111642.png",
-    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111436.png",
-    "temp/Math-And-English-Library/00_附件/Pasted image 20250409111403.png",
-    "未命名.canvas"
+    "第一章：函数、数列和极限.md",
+    "Calendar/Journal/Daily/2026-04-17-00.md",
+    "高阶无穷小的计算规则.md",
+    "Atlas/高数/函数、极限、连续/泰勒展开lin(1+x).md",
+    "【例 5.2】解答.md",
+    "泰勒公式使用注意.md",
+    "极限求解技巧点.md",
+    "PixPin_2026-04-17_19-43-43.png",
+    "Atlas/高数/函数、极限、连续/泰勒展开--1%(1+-x).md",
+    "calculus/高数27考研学习总览.md",
+    "calculus/高数思维导图.md",
+    "calculus/高数 27 学习记录.md",
+    "Home.md"
   ]
 }

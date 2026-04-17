@@ -1,10 +1,10 @@
 {
   "id": "conv-1775527245002-ca601vtq6",
-  "title": "基本型",
+  "title": "/model",
   "titleGenerationStatus": "failed",
   "createdAt": 1775527245002,
-  "updatedAt": 1775527416975,
-  "lastResponseAt": 1775527259584,
+  "updatedAt": 1775563024602,
+  "lastResponseAt": 1775553418337,
   "sessionId": null,
-  "currentNote": "常用基本极限.md"
+  "sdkSessionId": "f77e6518-f109-48c5-83f4-2bbf24bec2ce"
 }

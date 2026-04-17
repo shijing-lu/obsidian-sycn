@@ -1,0 +1,1 @@
+ $$\cos\mathrm{x=\sum_{n=0}^\infty\frac{(-1)^n}{(2n)!}x^{2n}=1-\frac1{2!}x^2+\frac1{4!}x^4+\cdots,x\in(-\infty,+\infty)}$$

@@ -3,17 +3,29 @@
   "title": "你好",
   "titleGenerationStatus": "failed",
   "createdAt": 1775297277311,
-  "updatedAt": 1775527431434,
-  "lastResponseAt": 1775527431434,
-  "sessionId": "5b788c14-9f24-4041-8d34-09ca51b2177f",
-  "sdkSessionId": "5b788c14-9f24-4041-8d34-09ca51b2177f",
+  "updatedAt": 1775563024505,
+  "lastResponseAt": 1775553477896,
+  "sessionId": "1c153dac-e8fe-4719-99d8-641eb06c5ce1",
+  "sdkSessionId": "1c153dac-e8fe-4719-99d8-641eb06c5ce1",
+  "previousSdkSessionIds": [
+    "5b788c14-9f24-4041-8d34-09ca51b2177f",
+    "76b650e2-2bb6-45b0-bf40-6f0c0dd73d51",
+    "29b479b8-a7f0-434e-b17c-615835f6a8ca",
+    "7dbc7d78-fb5b-45c5-afc4-92732885ff79",
+    "5f3504aa-dc01-48bb-8838-48f802ec43bc",
+    "681f26b2-2cba-4fc5-ba28-04d4e394b2a3",
+    "3a7cd7c4-5a23-48de-86dc-10833cf9ba46",
+    "8ee9c492-9302-4190-920c-aafc10e549d1",
+    "a9f18973-4e28-411c-b8fa-33657ca022df",
+    "fde81ba2-b13c-463c-b336-89938aa34fa2"
+  ],
   "usage": {
     "model": "sonnet",
-    "inputTokens": 0,
+    "inputTokens": 822,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 0,
+    "cacheReadInputTokens": 21504,
     "contextWindow": 200000,
-    "contextTokens": 0,
-    "percentage": 0
+    "contextTokens": 22326,
+    "percentage": 11
   }
 }

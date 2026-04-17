@@ -1,51 +1,36 @@
----
-cssclasses:
-  - daily
-  - friday
----
+参考视频：[一高数](https://www.bilibili.com/video/BV1su4y1L7Vn?spm_id_from=333.788.videopod.sections&vd_source=3842b8677aa1afbaed9b636648cf0693)
 
-# 👋 你好，小鹿
+不定积分
+ 
 
-> [!quote] 每一天都是新的开始
+不定积分公式
 
----
+[[基础函数的不定积分]]
+[[三角函数的不定积分]]
 
-## 🗂️ 快速导航
+不定积分计算方法
+[[第一类换元积分法]]
+[[第一类换元积分法常见基本函数]]
+[[第一类换元积分法常见三角函数]]
 
-<div class="nav-grid">
+[[第二类换元积分法概念]]
 
-[[Habits Tracker|📊 习惯追踪]]
-[[Calendar/Journal/Daily/2026-04-03-00|📅 今日日记]]
-[[calculus/maps test|🗺️ 知识地图]]
-[[Bases/Calendar.base|🗓️ 日历]]
+[[第二类换元积分法总结]]
 
-</div>
+[[分部积分法定义]]
 
----
+[[分部积分法使用场景]]
 
-## 📝 最近笔记
+定积分
 
-```dataview
-TABLE file.mtime AS "修改时间"
-FROM ""
-WHERE file.name != "Home"
-SORT file.mtime DESC
-LIMIT 8
-```
+[[定积分的定义]]
+[[定积分的几何意义]]
+定积分性质
+[[定积分性质 1 线性性]]
+[[定积分性质 2 区间的可加性]]
+[[定积分性质 3 保号性]]
+[[定积分性质 4 保序性]]
+[[定积分推导性质-绝对可积性]]
+[[定积分推导性质-估值不等式]]
 
----
 
-## 📅 本周日记
-
-```dataview
-LIST
-FROM "Calendar/Journal/Daily"
-SORT file.name DESC
-LIMIT 7
-```
-
----
-
-## 🔥 习惯热力
-
-![[Habits Tracker]]
