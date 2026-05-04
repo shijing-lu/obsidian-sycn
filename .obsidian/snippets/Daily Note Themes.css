@@ -12,196 +12,208 @@ change or remove those font-family lines from this snippet.
                 
 ------------------------------------------------------------------------------*/
 :root {
-  --highlight: #ffffff;
-  --primary: #aaaaaa;
-  --dark: #333333;
+  --highlight: #ffffff; */
+  --primary: #aaaaaa; */
+  /* --dark: #333333; */
+}
+
+/* 柔和的默认配色 */
+.daily {
+  /* --dark: #4a4a4a; */ */
+  color: var(--highlight); */
+  /* background-color: var(--dark); */ */
+  --text-normal: var(--highlight); */
+  --text-muted: var(--highlight); */
+  --text-faint: var(--highlight); */
+  --checklist-done-color: var(--highlight); */
+  --metadata-label-text-color: var(--highlight); */
+  --metadata-input-text-color: var(--highlight); */
+  --tag-color: var(--dark); */
+  --tag-background: var(--primary); */
+  --hr-color: var(--primary); */
+  --blockquote-border-color: var(--primary); */
+  --interactive-accent: var(--primary); */
+  --collapse-icon-color-collapsed: var(--primary); */
+  --checkbox-color: var(--primary); */
+  --checkbox-marker-color: var(--dark); */
+  --checkbox-color-hover: var(--highlight); */
+  --checkbox-border-color: var(--highlight); */
+  --list-marker-color: var(--highlight); */
+  --code-background: black; */
+  --code-normal: var(--primary); */
+
+  --background-modifier-border-focus: var(--primary); */
+  --background-modifier-border: color-mix(in srgb, var(--highlight) 60%, transparent); */
+  --background-modifier-hover: color-mix(in srgb, var(--highlight) 60%, transparent); */
+  --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent); */
 }
 
 .daily {
-  --dark: var(--dark);
-  color: var(--highlight);
-  background-color: var(--dark);
-  --text-normal: var(--highlight);
-  --text-muted: var(--highlight);
-  --text-faint: var(--highlight);
-  --checklist-done-color: var(--highlight);
-  --metadata-label-text-color: var(--highlight);
-  --metadata-input-text-color: var(--highlight);
-  --tag-color: var(--dark);
-  --tag-background: var(--primary);
-  --hr-color: var(--primary);
-  --blockquote-border-color: var(--primary);
-  --interactive-accent: var(--primary);
-  --collapse-icon-color-collapsed: var(--primary);
-  --checkbox-color: var(--primary);
-  --checkbox-marker-color: var(--dark);
-  --checkbox-color-hover: var(--highlight);
-  --checkbox-border-color: var(--highlight);
-  --list-marker-color: var(--highlight);
-  --code-background: black;
-  --code-normal: var(--primary);
+  --dark: var(--dark); */
+  color: var(--highlight); */
+  /* background-color: var(--dark); */ */
+  --text-normal: var(--highlight); */
+  --text-muted: var(--highlight); */
+  --text-faint: var(--highlight); */
+  --checklist-done-color: var(--highlight); */
+  --metadata-label-text-color: var(--highlight); */
+  --metadata-input-text-color: var(--highlight); */
+  --tag-color: var(--dark); */
+  --tag-background: var(--primary); */
+  --hr-color: var(--primary); */
+  --blockquote-border-color: var(--primary); */
+  --interactive-accent: var(--primary); */
+  --collapse-icon-color-collapsed: var(--primary); */
+  --checkbox-color: var(--primary); */
+  --checkbox-marker-color: var(--dark); */
+  --checkbox-color-hover: var(--highlight); */
+  --checkbox-border-color: var(--highlight); */
+  --list-marker-color: var(--highlight); */
+  --code-background: black; */
+  --code-normal: var(--primary); */
 
-  --background-modifier-border-focus: var(--primary);
-  --background-modifier-border: color-mix(in srgb, var(--highlight) 60%, transparent);
-  --background-modifier-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
-  --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+  --background-modifier-border-focus: var(--primary); */
+  --background-modifier-border: color-mix(in srgb, var(--highlight) 60%, transparent); */
+  --background-modifier-hover: color-mix(in srgb, var(--highlight) 60%, transparent); */
+  --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent); */
 }
 
 .sunday,
-.Sunday {
-  --highlight: #EDE0D4;
-  --primary: #C4A882;
-  --dark: #6B5744;
+.Sunday,
+.星期日,
+.周日 {
+  --highlight: #f8c5d1; */
+  --primary: #e89db8; */
+  /* --dark: #7a3d52; */
 }
 
 .monday,
-.Monday {
-  --highlight: #DDE5D8;
-  --primary: #8BA888;
-  --dark: #445C42;
+.Monday,
+.星期一,
+.周一 {
+  --highlight: #f8c5d1; */
+  --primary: #e89898; */
+  /* --dark: #7a3d42; */
 }
 
 .tuesday,
-.Tuesday {
-  --highlight: #D8E0E8;
-  --primary: #8AA5B8;
-  --dark: #3D5566;
+.Tuesday,
+.星期二,
+.周二 {
+  --highlight: #c5e1f8; */
+  --primary: #87b8e8; */
+  /* --dark: #3d527a; */
 }
 
 .wednesday,
-.Wednesday {
-  --highlight: #E8E0D8;
-  --primary: #B8A898;
-  --dark: #5C4D40;
+.Wednesday,
+.星期三,
+.周三 {
+  --highlight: #fff8c5; */
+  --primary: #e8d087; */
+  /* --dark: #7a6b3d; */
 }
 
 .thursday,
-.Thursday {
-  --highlight: #E0D8E8;
-  --primary: #A898C4;
-  --dark: #4D3D66;
+.Thursday,
+.星期四,
+.周四 {
+  --highlight: #f8d1c5; */
+  --primary: #e89870; */
+  /* --dark: #7a523d; */
 }
 
 .friday,
-.Friday {
-  --highlight: #2C3E35;
-  --primary: #3D6655;
-  --dark: #F5F0E8;
-  background-image: url("【哲风壁纸】云朵-旷野郊游.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
-  position: relative;
-}
-
-/* Friday 背景图半透明遮罩 - 让文字清晰可读 */
-.friday .markdown-preview-view,
-.Friday .markdown-preview-view,
-.friday .cm-editor .cm-scroller,
-.Friday .cm-editor .cm-scroller {
-  background: none !important;
-}
-
-.friday::before,
-.Friday::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(245, 240, 232, 0.60);
-  pointer-events: none;
-  z-index: 0;
-}
-
-.friday > *,
-.Friday > * {
-  position: relative;
-  z-index: 1;
+.Friday,
+.星期五,
+.周五 {
+  --highlight: #f0c7d3; */
+  --primary: #dc9fb3; */
+  /* --dark: #6b3a4d; */
 }
 
 .saturday,
-.Saturday {
-  --highlight: #E8D8E0;
-  --primary: #C498A8;
-  --dark: #664455;
+.Saturday,
+.星期六,
+.周六 {
+  --highlight: #f39caa; */
+  --primary: #e22c3c; */
+  /* --dark: #100305; */
 }
 
 .daily :is(h1, .HyperMD-header.HyperMD-header-1) {
-  color: var(--primary);
-  text-align: center;
-  font-size: 60px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
-  padding: 0 !important;
+  color: var(--primary); */
+  text-align: center; */
+  font-size: 60px; */
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono"; */
+  padding: 0 !important; */
 }
 
 .daily :is(h2, .HyperMD-header.HyperMD-header-2) {
-  color: var(--highlight);
-  text-align: center;
-  font-size: 30px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
-  font-style: italic;
-  padding: 0 !important;
+  color: var(--highlight); */
+  text-align: center; */
+  font-size: 30px; */
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono"; */
+  font-style: italic; */
+  padding: 0 !important; */
 }
 
 .daily :is(h3, .HyperMD-header.HyperMD-header-3) {
-  color: var(--primary);
-  text-align: center;
+  color: var(--primary); */
+  text-align: center; */
 
-  font-size: 32px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
-  padding-top: 0;
+  font-size: 32px; */
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono"; */
+  padding-top: 0; */
 }
 
 .daily :is(h4, .HyperMD-header.HyperMD-header-4) {
-  background-color: var(--primary);
-  color: var(--dark);
-  /* border-color: var(--primary); */
-  /* font-family: "JetBrainsMono Nerd Font Mono", "JetBrains Mono", monospace; */
-  font-weight: 900;
-  margin-bottom: 0;
-  padding-top: 0;
-  font-size: 20px;
-  width: fit-content;
-  padding-left: 6px;
-  padding-right: 6px;
-  /* border: solid; */
-  border-radius: 8px;
-  /* border-width: 2px; */
-  word-wrap: normal;
+  background-color: var(--primary); */
+  color: var(--dark); */
+  /* border-color: var(--primary); */ */
+  /* font-family: "JetBrainsMono Nerd Font Mono", "JetBrains Mono", monospace; */ */
+  font-weight: 900; */
+  margin-bottom: 0; */
+  padding-top: 0; */
+  font-size: 20px; */
+  width: fit-content; */
+  padding-left: 6px; */
+  padding-right: 6px; */
+  /* border: solid; */ */
+  border-radius: 8px; */
+  /* border-width: 2px; */ */
+  word-wrap: normal; */
 }
 
 .daily :is(h5, .HyperMD-header.HyperMD-header-5) {
-  color: var(--primary);
-  text-align: center;
-  margin-bottom: 0;
-  padding-top: 0;
+  color: var(--primary); */
+  text-align: center; */
+  margin-bottom: 0; */
+  padding-top: 0; */
 }
 
 .daily p {
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 4px; */
+  margin-bottom: 4px; */
 }
 
 .daily :is(a:link, .cm-hmd-internal-link) {
-  color: var(--primary);
+  color: var(--primary); */
 }
 
 .daily :is(a:hover, .cm-hmd-internal-link:hover) {
-  color: var(--highlight);
+  color: var(--highlight); */
 }
 
 .daily hr {
-  margin-top: 20px !important;
-  margin-bottom: 20px !important;
+  margin-top: 20px !important; */
+  margin-bottom: 20px !important; */
 }
 
 .daily img {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  display: block !important; */
+  margin-left: auto !important; */
+  margin-right: auto !important; */
 }
 
 :is(.sunday, .Sunday,
@@ -211,5 +223,5 @@ change or remove those font-family lines from this snippet.
   .thursday, .Thursday,
   .friday, .Friday,
   .saturday, .Saturday) svg {
-  color: color-mix(in srgb, var(--highlight) 60%, transparent);
+  color: color-mix(in srgb, var(--highlight) 60%, transparent); */
 }

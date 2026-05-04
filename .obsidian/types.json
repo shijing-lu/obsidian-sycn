@@ -5,6 +5,7 @@
     "tags": "tags",
     "coordinates": "multitext",
     "createTime": "datetime",
-    "created": "text"
+    "created": "text",
+    "Date Created": "date"
   }
 }

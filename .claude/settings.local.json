@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la *.md)",
+      "Bash(ls *.md)",
+      "Bash(ls *.md *.png)"
+    ]
+  }
+}

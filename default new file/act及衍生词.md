@@ -1,0 +1,6 @@
+- act：做 驱使
+- action：n. 行动；法令
+- active：a.积极的
+- inactive：a.惰性的
+- activity：n.活动
+- enact：v. 制定法律；通过法案

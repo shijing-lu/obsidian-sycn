@@ -1,0 +1,17 @@
+{
+    "plugins": {
+        "templater-obsidian": {
+            "id": "templater-obsidian",
+            "isApplied": true,
+            "pluginVersion": "2.18.1",
+            "translationVersion": "1.0.0"
+        },
+        "pdf-plus": {
+            "id": "pdf-plus",
+            "isApplied": true,
+            "pluginVersion": "0.40.31",
+            "translationVersion": "1.0.0"
+        }
+    },
+    "themes": {}
+}

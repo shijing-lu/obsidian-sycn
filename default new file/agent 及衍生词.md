@@ -1,0 +1,2 @@
+- **agent**: /ˈeɪdʒənt/=ag+ent=做+n.=n.==代理人==；【真题意群】a travel agent 旅行经纪 人 
+- **agency**: /ˈeɪdʒənsi/=n.==代理==；【真题意群】an empolyment agency 职业代办处

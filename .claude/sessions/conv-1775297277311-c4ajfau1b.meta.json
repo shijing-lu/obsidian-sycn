@@ -3,8 +3,8 @@
   "title": "你好",
   "titleGenerationStatus": "failed",
   "createdAt": 1775297277311,
-  "updatedAt": 1775563024505,
-  "lastResponseAt": 1775553477896,
+  "updatedAt": 1777089939092,
+  "lastResponseAt": 1776489077395,
   "sessionId": "1c153dac-e8fe-4719-99d8-641eb06c5ce1",
   "sdkSessionId": "1c153dac-e8fe-4719-99d8-641eb06c5ce1",
   "previousSdkSessionIds": [
@@ -21,11 +21,11 @@
   ],
   "usage": {
     "model": "sonnet",
-    "inputTokens": 822,
+    "inputTokens": 0,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 21504,
+    "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 22326,
-    "percentage": 11
+    "contextTokens": 0,
+    "percentage": 0
   }
 }

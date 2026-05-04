@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: 英语
+    filters:
+      and:
+        - file.folder == "English"

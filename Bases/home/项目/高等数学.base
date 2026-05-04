@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: 高数
+    filters:
+      and:
+        - file.folder == "calculus"

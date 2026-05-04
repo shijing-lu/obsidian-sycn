@@ -1,0 +1,2 @@
+- **transact**： /trænˈzækt/=trans+act=穿过+驱使=v.处理；交易 
+- **transaction**： /trænˈzækʃ(ə)n/=n.交易；处理

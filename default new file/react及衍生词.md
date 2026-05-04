@@ -1,0 +1,2 @@
+- **react** : /ri'aekt/=re+act=返回+动作=v.反应；【真题意群】react to sb.回应某人 
+- **reaction** : /ri'aek∫(a)n/=n.反应

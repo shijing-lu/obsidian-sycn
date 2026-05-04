@@ -42,7 +42,7 @@
   "permissionMode": "yolo",
   "model": "sonnet",
   "thinkingBudget": "low",
-  "effortLevel": "low",
+  "effortLevel": "max",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
   "enableChrome": false,

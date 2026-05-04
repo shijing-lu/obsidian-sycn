@@ -1,0 +1,3 @@
+- **ambassador** ：/aem'baesadar/=amb+ass+ador=两边+做（它是词根 ag 的过去式形式+n.=n.==大使==；【真题意群】aukambassador 英国大使
+- **ambassadress**=n.==大使夫人；女大使==
+- **embassy**=emb+ass+y=两边(=amb)+做+n.=n.==大使馆==;【真题意群】the argentinean embassy 阿根廷大使馆

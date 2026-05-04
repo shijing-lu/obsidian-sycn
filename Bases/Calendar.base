@@ -11,18 +11,17 @@ views:
         - file.inFolder("Calendar/Meetings")
     order:
       - formula.✨
-      - file.name
+      - file.basename
       - formula.highlight
+      - highlight
     sort:
-      - property: formula.highlight
-        direction: DESC
       - property: formula.✨
         direction: ASC
       - property: file.name
         direction: ASC
     columnSize:
       formula.✨: 3
-      file.name: 479
+      formula.highlight: 226
   - type: cards
     name: Daily
     filters:

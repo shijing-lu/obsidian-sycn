@@ -9,7 +9,7 @@ date: '<% tp.file.title %>'
 cssclasses:
   - hide-properties
   - daily
-  <% "- " + tp.date.now("dddd", 0, tp.file.title, "YYYYMMDD").toLowerCase() %>
+  <% "- " + tp.date.now("dddd", "en", tp.file.title, "YYYYMMDD").toLowerCase() %>
 ---
 
 ## [[<% d.format("YYYY")%>]] / [[<%d.format("YYYY")%>-<% q %>|<% q %>]] / [[<% d.format("YYYY-MM") %>|<% d.format("MMMM") %>]] / [[<% d.format("YYYY") %>-W<% w %>|Week <% d.isoWeek() %>]]
@@ -18,23 +18,10 @@ cssclasses:
 ---
 ### 📕Freewrite
 
-
-
-
 ---
-### ⚛️Habits
-#### ☀️Morning
 
-#### Habits
-- 📖[reading::]
-
-#### 🥦Health
-
-
-#### 💪Body
-- 🏋🏻‍♂️[workout::]
-
-#### End-of-Day Checklist
+### - 每日待办
+- [x] forexample 1
 ---
 
 <%*

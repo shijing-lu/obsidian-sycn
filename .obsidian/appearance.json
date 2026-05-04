@@ -3,8 +3,9 @@
     "Daily Note Themes",
     "General Tweaks"
   ],
-  "textFontFamily": "霞鹜文楷 GB 屏幕阅读版 R,JetBrains Mono",
-  "interfaceFontFamily": "JetBrains Mono,DepartureMono Nerd Font",
-  "monospaceFontFamily": "JetBrains Mono",
-  "cssTheme": "theme"
+  "textFontFamily": "钉钉进步体,霞鹜文楷 GB 屏幕阅读版 R,JetBrains Mono",
+  "interfaceFontFamily": "钉钉进步体,JetBrains Mono,DepartureMono Nerd Font,霞鹜文楷",
+  "monospaceFontFamily": "钉钉进步体,JetBrains Mono",
+  "cssTheme": "Phycat",
+  "accentColor": ""
 }

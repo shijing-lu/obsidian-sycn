@@ -1,0 +1,11 @@
+views:
+  - type: table
+    name: home-day-view
+    filters:
+      and:
+        - file.ctime == today()
+        - '!file.fullname.containsAny("png")'
+        - '!file.fullname.containsAny("zip")'
+    sort:
+      - property: file.name
+        direction: DESC

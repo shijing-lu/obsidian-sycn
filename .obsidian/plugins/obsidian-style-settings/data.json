@@ -45,5 +45,8 @@
   "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-atom-light",
   "anuppuccin-theme-settings-extended@@catppuccin-theme-dark-extended": "ctp-atom-dark",
   "blue-topaz-theme@@translucent-setting-panel": false,
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-monochrome-topaz"
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-monochrome-topaz",
+  "phycat-colors@@light-color-scheme": "theme-light-sky",
+  "phycat-colors@@dark-color-scheme": "theme-dark-abyss",
+  "phycat-layout@@layout-style": "layout-cards"
 }

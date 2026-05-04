@@ -2,5 +2,10 @@
   "promptDelete": false,
   "defaultViewMode": "preview",
   "alwaysUpdateLinks": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "default new file",
+  "showUnsupportedFiles": true,
+  "trashOption": "local",
+  "readableLineLength": false
 }

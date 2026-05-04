@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: obsidian
+    filters:
+      and:
+        - file.folder == "obsidian"

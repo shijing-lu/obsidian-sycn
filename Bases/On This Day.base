@@ -1,15 +1,11 @@
-filters:
-  or:
-    - file.name.contains(this.file.name.slice(4))
-    - date.toString().contains(this.file.name.slice(4))
 formulas:
-  date: date.toString().slice(0, 10)
+  created_date: file.ctime.toString().slice(0, 10)
 properties:
   file.name:
     displayName: Entry
   note.categories:
     displayName: Categories
-  note.created:
+  file.ctime:
     displayName: Created
   note.tags:
     displayName: Tags
@@ -18,15 +14,22 @@ views:
     name: On This Day
     filters:
       and:
+        - file.ctime.toString().contains(this.file.name.slice(4))
+        - '!file.fullname.containsAny("png", "zip")'
         - file.name != this.file.name
     order:
-      - formula.date
+      - formula.created_date
       - file.name
     sort:
+      - property: formula.created_date
+        direction: ASC
       - property: file.name
         direction: ASC
-      - property: date
-        direction: DESC
     columnSize:
-      formula.date: 153
+      formula.created_date: 153
       file.name: 558
+  - type: table
+    name: home-view
+    filters:
+      and:
+        - file.ctime == today()

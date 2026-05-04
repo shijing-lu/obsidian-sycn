@@ -1,0 +1,3 @@
+- **interact**：/intar'aekt/=inter+act=中间+做一“两者之间互动”=v.相互作用；相互影响 
+- **interaction**：n.互动
+- **interactive**：/intaraektiv/=a.互动的

@@ -1,0 +1,14 @@
+# **bio = 生物，生命**
+> [!tip] 快速记忆
+> **bio**logy 生物学、**bio**graphy 传记（书写一个人的生命故事），都是高频词。antibiotic（抗生素）拆为 anti（反）+ bio（生命）+ tic，对抗生命的——即杀死细菌的药物。
+
+- **biology**: /baɪˈɑːlədʒi/ = bio + logy = 生命 + 一门科学 ===n.生物学==
+    - biologist = n.生物学家
+- **biological**: /ˌbaɪəˈlɑːdʒɪk(ə)l/ = bio + log + ical = 生物 + a. ===a.生物学的==
+- **biochemistry**: /ˌbaɪoʊˈkemɪstri/ = bio + chem + ist + ry = 生物 + 化学 + n. ===n.生物化学==
+- **biography**: /baɪˈɑːɡrəfi/ = bio + graph + y = 生命 + 写 + n. ===n.传记==
+    - 【真题意群】read one's biography 阅读某人的传记
+- **biographer**: /baɪˈɑːɡrəfər/ = bio + graph + er = 生命 + 写 + 人 ===n.传记作者==
+- **biographical**: /ˌbaɪəˈɡræfɪkl/ = bio + graph + ical = 生命 + 写 + a. ===a.传记的==
+- **biocide**: /ˈbaɪoʊˌsaɪd/ = bio + cid + e = 生物 + 切 ===n.杀虫剂==
+- **antibiotic**: /ˌæntibaɪˈɑːtɪk/ = anti + bio + tic = 反 + 生物 + a. ===a.抗生素的===

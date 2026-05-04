@@ -1,0 +1,35 @@
+# **cur(r) curs cour(i) cours = run→发生;关心**
+> [!tip] 
+> 快速记忆 这个词根最初有“跑”的意思，慢慢演变成“流动的、发生的”，以及“跑前跑后去关心”。**current**（水流/当前的）；**cure**（关心/治愈）；**course**（跑的过程/课程）。
+- **current**: /'kɜ:rənt/ = curr + ent = 跑 + a. ==a.流行的;当下的 n.流==
+- **currency**: /'kɜ:rənsi/ = ==n.货币==
+- **currently**: /'kɜ:rəntli/ = ==ad.目前当前==
+- **cure**: /kjʊr/ = cur + e = 关心 ==v.治愈=
+    - 【真题意群】 cure a brain injury 治愈脑损伤
+    - **curable**: /'kjʊrəbl/ = ==a.可治愈的==
+- **care**: /ker/ = car + e = 关心 ==n.v.照顾;关心;忧虑==
+    - **careful**: /'kerf(ə)l/ = ==a.小心的;谨慎的==
+- **secure**: /sɪ'kjʊr/ = se + cur + e = 离开 + 关心 ==a.安全的 v.使安全==
+    - 【真题意群】 feel secure 感觉很安全
+    - **security**: /sɪ'kjʊrəti/ = ==n.安保==
+    - 【真题意群】 a security check 安全检查
+- **curious**: /'kjʊriəs/ = cur + i + ous = 关心 + a. ==a.好奇的==
+    - 【真题意群】 be curious about sth.对某事好奇
+    - **curiosity**: /ˌkjʊri'ɑ:səti/ = ==n.好奇心==
+- **course**: /kɔ:rs/ = cours + e = 跑—“跑的过程” ==v.跑 n.进程;课程==
+- **discourse**: /'dɪskɔ:rs/ = dis + course = 离散 + 课程 ==n.演讲;论述;论文 v.论述==
+- **intercourse**: /'ɪntərkɔ:rs/ = inter + course = 中间 + 跑 ==n.交际;沟通==
+- **curriculum**: /kə'rɪkjələm/ = curr + i + culum = 跑 + n. ==n.课程==
+- **occur**: /ə'kɜ:r/ = oc + cur = 对面 + 跑 ==v.出现==
+    - **occurrence**: /ə'kɜ:rəns/ = ==n.出现==
+- **accuracy**: /'ækjərəsi/ = ac + cur + acy = to + 关心 + n. ==n.精确性==
+    - **accurate**: /'ækjərət/ = ==a.精确的==
+    - 【真题意群】 accurate language 精准的语言
+- **cursory**: /'kɜ:rsəri/ = curs + ory = 跑 + a. ==a.匆忙的;草率的==
+- **incur**: /ɪn'kɜ:r/ = in + cur = 进入 + 出现 ==v.招致;引发==
+- **recur**: /rɪ'kɜ:r/ = re + cur = 再 + 出现 ==v.再现;复发==
+- **excursion**: /ɪk'skɜ:rʒ(ə)n/ = ex + curs + ion = out + 跑 + n. ==n.远足;移动;偏离==
+- **charity**: /'tʃærəti/ = char(cur) + ity = 关心 + n. ==n.慈善==
+    - **charitable**: /'tʃærətəbl/ = ==a.慈善的==
+- **cherish**: /'tʃerɪʃ/ = cher + ish = 关心 + v. ==v.珍爱==
+- **corridor**: /'kɔ:rɪdɔ:r/ = corr + idor = 跑 + n. ==n.走廊;通道==
