@@ -8,21 +8,97 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "2ee2421a3c36c147",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.闪灵笔记/线代PDF转md.md",
+                "file": "default new file/lev liev.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "lev liev"
+            }
+          },
+          {
+            "id": "86ad0ff724f6a5bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "default new file/log(u) loqu locu lingu.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "log(u) loqu locu lingu"
+            }
+          },
+          {
+            "id": "1e66b2481cdaedb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "default new file/lect lig leg.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "lect lig leg"
+            }
+          },
+          {
+            "id": "6751a52d4c52ef2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.闪灵笔记/home.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "线代PDF转md"
+              "title": "home"
+            }
+          },
+          {
+            "id": "3a0590a014e1b65e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "English/单词学习.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "单词学习"
+            }
+          },
+          {
+            "id": "c384b4380f04685d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "default new file/lud lus.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "lud lus"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -173,7 +249,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -183,162 +260,6 @@
     "id": "47225ffb95736e5f",
     "type": "split",
     "children": [
-      {
-        "id": "f89a27e3778031f8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f9f79e64ad18047d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
-            }
-          },
-          {
-            "id": "87ca2a31332ec9ad",
-            "type": "leaf",
-            "state": {
-              "type": "hi-words-sidebar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "hi-words-sidebar"
-            }
-          },
-          {
-            "id": "0ef1c8ac31b617d5",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "00.闪灵笔记/home.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "home 的反向链接列表"
-            }
-          },
-          {
-            "id": "103da7c5399996ad",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
-          },
-          {
-            "id": "f62a7504b3b43723",
-            "type": "leaf",
-            "state": {
-              "type": "langr-learn-panel",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "langr-learn-panel"
-            }
-          },
-          {
-            "id": "13dfa3048600deb4",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
-            }
-          },
-          {
-            "id": "c591ffa60bfcbf2b",
-            "type": "leaf",
-            "state": {
-              "type": "Saved Queries View",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "Saved Queries View"
-            }
-          },
-          {
-            "id": "922410ed9fa354f2",
-            "type": "leaf",
-            "state": {
-              "type": "Saved Queries View",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "Saved Queries View"
-            }
-          },
-          {
-            "id": "4a6d7c721e012723",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
-            }
-          },
-          {
-            "id": "3118de8b3a5dcd90",
-            "type": "leaf",
-            "state": {
-              "type": "Saved Queries View",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "Saved Queries View"
-            }
-          },
-          {
-            "id": "fee16de705dbbaef",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
-            }
-          },
-          {
-            "id": "a024e59773acd22c",
-            "type": "leaf",
-            "state": {
-              "type": "Saved Queries View",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "Saved Queries View"
-            }
-          },
-          {
-            "id": "324dce5fd505484c",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
-            }
-          },
-          {
-            "id": "a77f818c0de831d5",
-            "type": "leaf",
-            "state": {
-              "type": "Saved Queries View",
-              "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
-            }
-          }
-        ],
-        "currentTab": 13
-      },
       {
         "id": "7313418fd763219e",
         "type": "tabs",
@@ -357,11 +278,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 471.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "periodic-notes:Open today": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -370,6 +291,7 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-spaced-repetition:复习卡片": false,
+      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "terminal:Open terminal": false,
@@ -405,34 +327,34 @@
     "type": "floating",
     "children": [
       {
-        "id": "796484d03b867b7d",
+        "id": "9554260c10c8cf8a",
         "type": "window",
         "children": [
           {
-            "id": "7908a9ece01c1cf7",
+            "id": "0bb1b2c79dcd42e7",
             "type": "tabs",
             "children": [
               {
-                "id": "04880d34896f6d59",
+                "id": "a5c642282a23a6a4",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "00.闪灵笔记/home.md",
-                    "mode": "preview",
+                    "file": "00.闪灵笔记/5-28.md",
+                    "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "home"
+                  "title": "5-28"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 768,
-        "y": 296,
+        "x": 2823,
+        "y": 427,
         "width": 1024,
         "height": 800,
         "maximize": false,
@@ -440,8 +362,28 @@
       }
     ]
   },
-  "active": "059d5aa05308e9f7",
+  "active": "a5c642282a23a6a4",
   "lastOpenFiles": [
+    "default new file/lud lus.md",
+    "00.闪灵笔记/5-28.md",
+    "English/单词学习.md",
+    "default new file/loc(o).md",
+    "default new file/line.md",
+    "00.闪灵笔记/home.md",
+    "default new file/lev liev.md",
+    "default new file/long leng.md",
+    "default new file/liter.md",
+    "default new file/labor.md",
+    "default new file/log(u) loqu locu lingu.md",
+    "default new file/lect lig leg.md",
+    "TaskNotes/Tasks/一键回到文章顶部.md",
+    "default new file/J字母 零散单列高频词汇.md",
+    "default new file/I字母 零散单列高频词汇.md",
+    "default new file/juven.md",
+    "default new file/joy.md",
+    "default new file/junct join.md",
+    "default new file/jur jurs just.md",
+    "00.闪灵笔记/线代PDF转md.md",
     "Atlas/高数/tan、cot、sec、csc.md",
     "00.闪灵笔记/temp/Untitled.md",
     "未命名.canvas",
@@ -453,31 +395,11 @@
     "00.闪灵笔记/关于历史.md",
     "00.闪灵笔记/线代例题.md",
     "00.闪灵笔记/高数转pdf.md",
-    "00.闪灵笔记/概率论.md",
-    "00.闪灵笔记/5-28.md",
-    "default new file/ject.md",
-    "00.闪灵笔记/home.md",
     "obsidian资源盘/考研资料/英语/词汇新修版讲义.pdf",
     "obsidian资源盘/考研资料/高等数学/2fc0571d61635ddbd7973d8b5fbfa1f3.jpg",
-    "郭子仪漫画/背景.md",
     "郭子仪漫画",
-    "English/单词学习.md",
-    "Calendar/Journal/Daily/2026-05-25.md",
-    "00.闪灵笔记/线代PDF转md.md",
-    "default new file/I字母 零散单列高频词汇.md",
-    "default new file/Z30清单.md",
-    "default new file/isol.md",
-    "default new file/im(i)(a).md",
-    "default new file/ident.md",
-    "default new file/it.md",
-    "default new file/idea ideo.md",
-    "default new file/G字母 零散单列高频词汇.md",
-    "default new file/H字母 零散单列高频词汇.md",
     "obsidian资源盘/考研资料/高等数学/【一高数Kira】27考研高数基础讲义-电子版.pdf",
     "obsidian资源盘/考研资料/高等数学/【一高数Kira】27考研概率统计基础讲义&习题-电子版.pdf",
-    "default new file/har harb harv.md",
-    "default new file/head.md",
-    "default new file/host.md",
     "00.闪灵笔记/考研单词本.canvas",
     "calculus/概率论",
     "obsidian资源盘/考研资料/英语",

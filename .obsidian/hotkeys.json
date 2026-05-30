@@ -136,5 +136,23 @@
       ],
       "key": "J"
     }
+  ],
+  "hi-words:add-selected-word": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Z"
+    }
+  ],
+  "tasknotes:create-new-task": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "N"
+    }
   ]
 }
