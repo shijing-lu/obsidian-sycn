@@ -1,10 +1,17 @@
 {
   "items": [
     {
-      "type": "url",
-      "ctime": 1777035930729,
-      "url": "https://chat.deepseek.com/",
-      "title": "DeepSeek - 探索未至之境"
+      "type": "group",
+      "ctime": 1777960294387,
+      "items": [
+        {
+          "type": "url",
+          "ctime": 1777035930729,
+          "url": "https://chat.deepseek.com/",
+          "title": "DeepSeek - 探索未至之境"
+        }
+      ],
+      "title": "AI 语言模型"
     }
   ]
 }

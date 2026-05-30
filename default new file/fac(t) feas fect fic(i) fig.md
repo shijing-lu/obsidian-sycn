@@ -1,0 +1,51 @@
+# **fac(t) feas fect fic(i) fig = 做**
+
+> [!tip] 快速记忆 
+> 这个词根家族非常庞大，核心动作就是“做 (make/do)”。**factory** (工厂) 就是做东西的地方；**perfect** (完美的) 就是从头到尾(per)都做(fect)得很好；**manufacture** 就是用手(manu)去做(fact)。
+
+- **fact**: /fækt/ = fact = 做的结果 ==n.事实==
+- **factory**: / fækt( )ri/ = ==n.工厂==
+- **factor**: /'fæktər/ = ==n.因素;要素==
+- **factual**: / fæktfuǝl/ = ==a.真实的;事实的==
+- **difficult**: /'dıfıkǝlt/ = dif+fic+ult = 不+做+a. ==a.困难的==
+    - **difficulty**: /'dıfıkəlti/ = ==n.困难==
+- **fiction**: / fıks( )n/ = fict+ion = 做+n. ==n.小说==; 【真题意群】anti-fiction enenmy 反奴隶制小说
+- **perfect**: / p 3:rfikt/ = per+fect = 从始至终+做 ==a.完美的== imperfect
+    - **perfection**: /perfek∫( )n/ = ==n 完美;完善==
+- **facility**: /fə sıləti/ = fac+il(e)+ity = 做+容易+n. ==n.设备;功能==
+    - **facilitate**: /fə siliteit/ = ==v 促进;使便利==
+- **manufacture**: / mænju fæktfər/ = manu+fact+ure = 手+做+n. ==v.制造 n.制造;制造物==
+    - **manufactory**: / mænjə fæktəri/ = ==n.制造厂,工厂==
+    - **manufacturer**: / mænju fæktſərər/ = ==n.制造商==
+- **affect**: /ə'fekt/ = af+fect = to+做一“对………做了某事” ==v.影响==; 【真题意群】affect one's decision 影响某人的决定
+    - **affection**: /ə'feks( )n/ = ==n.影响;喜爱== influence impact; 【真题意群】affection for nature 喜爱大自然
+    - **affective**: /ə'fektiv/ = ==a.情感的==
+- **infect**: /in'fekt/ = in+fect = 里面+做一“进入(身体)施加影响” ==v.传染;感染==
+    - **infection**: /ın fek∫( )n/ = ==n.传染感染==
+    - **infectious**: /ın fekſəs/ = ==a.传染的;有感染力的== ~ disease
+    - **infected**: /ın fektid/ = ==a.被感染的==
+- **profit**: / pra:fit/ = pro+fit = 前面+做——“吸引你向前去做的” ==n.利润== make ~s; 【真题意群】make a financial profit 赚取金融利润
+    - **profitable**: / pra:fitǝb(ə)l/ = ==a.有利润的==
+    - **nonprofit**: / na:n pra:fit/ = ==a.非营利的==
+- **sacrifice**: /'sækrıfais/ = sacr+i+fic+e = 神圣+做 ==n.v.牺牲;献祭(品)== at the ~ of; make a ~; 【真题意群】sacrifice one's life 牺牲某人的生命
+- **defect**: / di:fekt/ = de+fect = 背离+做 ==v.背叛== genetic ~
+    - **defection**: = ==n.背叛==
+- **effect**: / fekt/ = ef+fect = out+做 ==n.效果;影响== bring/carry/put sth into ~; be of little/no~; 【真题意群】the green house effect 温室效应
+    - **effective**: /i'fektiv/ = ==a.有效的==
+    - **efficient**: /ı fıs(ə)nt/ = ==a.高效率的==
+    - **efficiency**: /ı fı∫( )nsi/ = ==n.效率==
+- **sufficient**: /sə fıs(ə)nt/ = suf+fic+i+ent = 下面+做+a. ==a.足够的==
+    - **sufficiently**: = ==ad.充足地==
+    - **suffice**: /sə'fais/ = ==v.足够;有能力;满足…需要==
+- **defeat**: /dı fi:t/ = de+feat = 向下+做 ==v.击败 n.失败;战胜== 【真题意群】 defeat an army 击败敌人
+- **feat**: /fi:t/ = feat = 做 ==n.功绩;技艺==
+- **feature**: /fi:tfər/ = feat+ure = 做+n. ==n.特征;特性==
+- **beneficial**: / beni fif( )l/ = bene+fic+ial = 好+做+a. ==a.有益的==
+    - **benefit**: / benifit/ = ==n.利益==
+- **traffic**: /træfik/ = tra+f+fic = 横过+做 ==n.交通==
+- **satisfaction**: / sætis fæk∫( )n/ = satis+fact+ion = 满+做+n. ==n.满意==; 【真题意群】job satisfaction 工作满意度
+- **affair**: /e'fer/ = af+fair = to+同 fact,做 ==n.事,事情;事务==; 【真题意群】 a private affair 私事
+- **qualification**: / kwa:lıfı keı∫( )n/ = qual+i+fic+ation = 性质+做+n. ==n.资格,资历;获得资格==
+- **quality**: / kwa:ləti/ = ==n.质量;品质;性质== quantity n.数量
+    - **qualify**: / kwa:lıfai/ = ==v.使合格;使具备资格==
+- **faculty**: / fæk(ə)lti/ = fac+ulty = 做+n. ==n.能力;科;系;全体教员==

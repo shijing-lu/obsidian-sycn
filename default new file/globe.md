@@ -1,0 +1,4 @@
+- **globe**: /ɡloʊb/ = glob + e = 球 ==n.地球;地球仪==
+- 【真题意群】around the globe 全球
+- **global**: /ˈɡloʊbl/ = ==a.全球的==
+- **globalization**: /ˌɡloʊbəlaɪˈzeɪʃn/ = ==n.全球化==

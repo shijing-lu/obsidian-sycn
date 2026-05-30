@@ -1,0 +1,4 @@
+   - **非负性**：$f(x)\geq 0$。
+   - **规范性**：$\int_{-\infty}^{+\infty} f(x) dx=1$。
+   - 对于任意实数 $a, b, a<b$，有 $P\{a<X\leq b\}=F(b)-F(a)=\int_a^b f(x) dx$。
+   - 若 $f(x)$ 在点 $x$ 连续，则有 $F'(x)=f(x)$。

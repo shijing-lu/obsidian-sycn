@@ -1,8 +1,6 @@
 ---
 banner: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
-banner_x: 0.5
-banner_y: 0.56
-banner_icon:
+banner_y: 0.5
 ---
 
 
@@ -21,6 +19,13 @@ type link
 action http://localhost:2283/photos
 ```
 ^button-j63n
+
+```button
+name hermes AI
+type link
+action http://localhost:8787/
+```
+^button-xhno
 
 	
 ````

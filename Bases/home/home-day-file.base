@@ -8,4 +8,4 @@ views:
         - '!file.fullname.containsAny("zip")'
     sort:
       - property: file.name
-        direction: DESC
+        direction: ASC

@@ -7,5 +7,7 @@
   "newFileFolderPath": "default new file",
   "showUnsupportedFiles": true,
   "trashOption": "local",
-  "readableLineLength": false
+  "readableLineLength": true,
+  "vimMode": false,
+  "autoPairMarkdown": true
 }

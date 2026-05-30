@@ -1,0 +1,19 @@
+{
+  "id": "conv-1777910895177-c78mw2c44",
+  "title": " a3129@jinglu D:\\confuse deer's space  master  ...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777910895178,
+  "updatedAt": 1777911803384,
+  "lastResponseAt": 1777911803384,
+  "sessionId": "8c6e1974-faa5-4083-8b0e-f5cb9ab3dfd9",
+  "sdkSessionId": "8c6e1974-faa5-4083-8b0e-f5cb9ab3dfd9",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

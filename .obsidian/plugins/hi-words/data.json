@@ -1,0 +1,50 @@
+{
+  "vocabularyBooks": [
+    {
+      "path": "00.闪灵笔记/考研单词本.canvas",
+      "name": "考研单词本",
+      "enabled": true
+    }
+  ],
+  "showDefinitionOnHover": true,
+  "enableAutoHighlight": true,
+  "highlightStyle": "underline",
+  "enableMasteredFeature": true,
+  "showMasteredInSidebar": true,
+  "blurDefinitions": true,
+  "ttsTemplate": "https://dict.youdao.com/dictvoice?audio={{word}}&type=2",
+  "aiService": {
+    "provider": "openai-compatible",
+    "apiUrl": "https://api.deepseek.com",
+    "apiKey": "sk-6e0b95933710419bb789424619130c33",
+    "model": "deepseek-v4-flash",
+    "extraParams": "{}"
+  },
+  "aiDefinition": {
+    "enabled": true,
+    "prompt": "Please provide a concise definition for the word \"{{word}}\" based on this context:\n\nSentence: {{sentence}}\n\nFormat:\n1) 单词构成：前缀+词根+后缀，并结合构成对中文释义做一点解释，便于记忆，前缀、后缀、词根用红色强调\n2) 常用中文释义，使用蓝色的颜色强调"
+  },
+  "autoLayoutEnabled": true,
+  "cardWidth": 260,
+  "cardHeight": 120,
+  "highlightMode": "all",
+  "highlightPaths": "",
+  "fileNodeParseMode": "filename-with-alias",
+  "enableSectionTabs": true,
+  "selectionTranslate": {
+    "enabled": true,
+    "targetLang": "zh-CN",
+    "prompt": "Translate the following text to {{to}}. Only return the translation, no explanation.\n\nText: {{text}}"
+  },
+  "aiDictionary": {
+    "apiUrl": "https://api.deepseek.com/v1/chat/completions",
+    "apiKey": "sk-b349907799a8488491bf94b35c528c80",
+    "model": "deepseek-v4-flash",
+    "prompt": "Please provide a concise definition for the word \"{{word}}\" based on this context:\n\nSentence: {{sentence}}\n\nFormat:\n1) Part of speech\n2) English definition\n3) Chinese translation\n4) Example sentence (use the original sentence if appropriate)",
+    "extraParams": "{}"
+  },
+  "enableSelectionTranslate": true,
+  "translateTargetLang": "zh-CN",
+  "translatePrompt": "Translate the following text to {{to}}. Only return the translation, no explanation.\n\nText: {{text}}",
+  "masteredDetection": "color"
+}
