@@ -38,13 +38,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "default new file/med(i) mid.md",
+                "file": "00.闪灵笔记/5-28.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "med(i) mid"
+              "title": "5-28"
             }
           }
         ],
@@ -60,13 +60,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.闪灵笔记/C词根复习表.md",
+                "file": "00.闪灵笔记/5-28.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "C词根复习表"
+              "title": "5-28"
             }
           }
         ]
@@ -440,8 +440,9 @@
   },
   "active": "4a79ece1dfbec8fa",
   "lastOpenFiles": [
-    "default new file/med(i) mid.md",
     "00.闪灵笔记/C词根复习表.md",
+    "00.闪灵笔记/5-28.md",
+    "default new file/med(i) mid.md",
     "obsidian资源盘/考研资料/英语/词汇新修版讲义.pdf",
     "obsidian资源盘/考研资料/高等数学/【一高数Kira】27考研高数基础讲义-电子版.pdf",
     "English/单词学习.md",
