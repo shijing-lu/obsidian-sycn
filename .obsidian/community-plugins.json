@@ -14,15 +14,11 @@
   "hi-words",
   "various-complements",
   "obsidian-language-learner",
-  "smart-connections",
-  "smart-composer",
-  "claudian",
   "keyboard-analyzer",
   "highlightr-plugin",
   "cmdr",
   "obsidian-latex-suite",
   "obsidian-hover-editor",
-  "advanced-cursors",
   "media-extended",
   "obsidian-mind-map",
   "excalibrain",
@@ -42,5 +38,9 @@
   "tasknotes",
   "obsidian-hider",
   "floating-toc",
-  "obsidian-copy-block-link"
+  "obsidian-copy-block-link",
+  "settings-search",
+  "omnisearch",
+  "advanced-cursors",
+  "apex-dashboard"
 ]

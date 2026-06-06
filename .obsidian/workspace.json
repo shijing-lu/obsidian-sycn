@@ -8,52 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2ee2421a3c36c147",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "default new file/lev liev.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "lev liev"
-            }
-          },
-          {
-            "id": "86ad0ff724f6a5bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "default new file/log(u) loqu locu lingu.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "log(u) loqu locu lingu"
-            }
-          },
-          {
-            "id": "1e66b2481cdaedb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "default new file/lect lig leg.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "lect lig leg"
-            }
-          },
-          {
-            "id": "6751a52d4c52ef2e",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,37 +23,53 @@
             }
           },
           {
-            "id": "3a0590a014e1b65e",
+            "id": "00d98c0bfe5350ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "English/单词学习.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "单词学习"
+              "type": "apex-dashboard-view",
+              "state": {},
+              "icon": "home",
+              "title": "工作台"
             }
           },
           {
-            "id": "c384b4380f04685d",
+            "id": "3d97948ac5c8787d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "default new file/lud lus.md",
+                "file": "default new file/med(i) mid.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "lud lus"
+              "title": "med(i) mid"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
+      },
+      {
+        "id": "f21942acb767e308",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a79ece1dfbec8fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.闪灵笔记/C词根复习表.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "C词根复习表"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +89,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -155,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases/reviewDB.md",
+                "file": "calculus/第七章 二重积分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "reviewDB 的出链列表"
+              "title": "第七章 二重积分 的出链列表"
             }
           },
           {
@@ -183,8 +154,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
             }
           },
           {
@@ -228,8 +199,8 @@
             "state": {
               "type": "langr-search-panel",
               "state": {},
-              "icon": "book",
-              "title": "查词面板"
+              "icon": "lucide-ghost",
+              "title": "langr-search-panel"
             }
           },
           {
@@ -238,7 +209,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "4-15",
+                "query": "二倍角公式",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -249,8 +220,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "horizontal",
@@ -265,21 +235,129 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8ba0acf7e5b30a0d",
+            "id": "5f6b9c165b539bd6",
             "type": "leaf",
             "state": {
-              "type": "claudian-view",
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "664d5b73725ae0a6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "875aed5d5f2993a7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "beab2337e1378fc6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "7ff38b578a439a5f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "bc4312aaff433a37",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "Saved Queries View"
+            }
+          },
+          {
+            "id": "5a65823ea047f175",
+            "type": "leaf",
+            "state": {
+              "type": "hi-words-sidebar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "hi-words-sidebar"
+            }
+          },
+          {
+            "id": "7fecba3e6e43f3be",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
+            }
+          },
+          {
+            "id": "a169b912109bc65e",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
+          },
+          {
+            "id": "6dd46f355b5d1821",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
+          },
+          {
+            "id": "37c6c2e99fb49c39",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
-    "width": 471.5,
-    "collapsed": true
+    "width": 472.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -291,7 +369,6 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-spaced-repetition:复习卡片": false,
-      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "terminal:Open terminal": false,
@@ -301,11 +378,6 @@
       "obsidian-language-learner:打开新词面板": false,
       "obsidian-language-learner:打开统计": false,
       "obsidian-language-learner:单词列表": false,
-      "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Connections: Open random connection": false,
-      "smart-connections:Smart Lookup: Open lookup view": false,
-      "smart-composer:Open smart composer": false,
-      "claudian:Open Claudian": false,
       "media-extended:Open external media": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
@@ -319,7 +391,10 @@
       "tasknotes:打开看板": false,
       "tasknotes:打开番茄钟计时器": false,
       "tasknotes:打开番茄钟统计": false,
-      "tasknotes:创建新任务": false
+      "tasknotes:创建新任务": false,
+      "omnisearch:Omnisearch": false,
+      "apex-dashboard:打开工作台": false,
+      "periodic-notes:Open today": false
     }
   },
   "floating": {
@@ -327,90 +402,90 @@
     "type": "floating",
     "children": [
       {
-        "id": "9554260c10c8cf8a",
+        "id": "ca7c4a1b62501cae",
         "type": "window",
         "children": [
           {
-            "id": "0bb1b2c79dcd42e7",
+            "id": "6b60df79f223ba71",
             "type": "tabs",
             "children": [
               {
-                "id": "a5c642282a23a6a4",
+                "id": "9b99a69824896253",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "00.闪灵笔记/5-28.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
+                    "file": "obsidian资源盘/考研资料/英语/词汇新修版讲义.pdf",
+                    "page": 1,
+                    "left": -257,
+                    "top": 846,
+                    "zoom": 0.719800451360019
                   },
-                  "icon": "lucide-file",
-                  "title": "5-28"
+                  "icon": "lucide-file-text",
+                  "title": "词汇新修版讲义"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 2823,
-        "y": 427,
+        "x": 3179,
+        "y": 435,
         "width": 1024,
         "height": 800,
         "maximize": false,
-        "zoom": 0
+        "zoom": -1
       }
     ]
   },
-  "active": "a5c642282a23a6a4",
+  "active": "4a79ece1dfbec8fa",
   "lastOpenFiles": [
-    "default new file/lud lus.md",
-    "00.闪灵笔记/5-28.md",
-    "English/单词学习.md",
-    "default new file/loc(o).md",
-    "default new file/line.md",
-    "00.闪灵笔记/home.md",
-    "default new file/lev liev.md",
-    "default new file/long leng.md",
-    "default new file/liter.md",
-    "default new file/labor.md",
-    "default new file/log(u) loqu locu lingu.md",
-    "default new file/lect lig leg.md",
-    "TaskNotes/Tasks/一键回到文章顶部.md",
-    "default new file/J字母 零散单列高频词汇.md",
-    "default new file/I字母 零散单列高频词汇.md",
-    "default new file/juven.md",
-    "default new file/joy.md",
-    "default new file/junct join.md",
-    "default new file/jur jurs just.md",
-    "00.闪灵笔记/线代PDF转md.md",
-    "Atlas/高数/tan、cot、sec、csc.md",
-    "00.闪灵笔记/temp/Untitled.md",
-    "未命名.canvas",
-    "Atlas/图片资源/PixPin_2026-05-15_09-32-08.png",
-    "Atlas/图片资源/【一高数Kira】27考研线代基础讲义&习题-电子版.webp",
-    "Atlas/图片资源/1d31bfe4e72b3142280093f3e094e48d.jpg",
-    "Atlas/图片资源/【一高数Kira】27考研线代基础讲义&习题-电子版 1.webp",
-    "00.闪灵笔记/送点黑名单.md",
-    "00.闪灵笔记/关于历史.md",
-    "00.闪灵笔记/线代例题.md",
-    "00.闪灵笔记/高数转pdf.md",
+    "default new file/med(i) mid.md",
+    "00.闪灵笔记/C词根复习表.md",
     "obsidian资源盘/考研资料/英语/词汇新修版讲义.pdf",
-    "obsidian资源盘/考研资料/高等数学/2fc0571d61635ddbd7973d8b5fbfa1f3.jpg",
-    "郭子仪漫画",
     "obsidian资源盘/考研资料/高等数学/【一高数Kira】27考研高数基础讲义-电子版.pdf",
-    "obsidian资源盘/考研资料/高等数学/【一高数Kira】27考研概率统计基础讲义&习题-电子版.pdf",
+    "English/单词学习.md",
+    "default new file/mob mot mov.md",
+    "default new file/mini.md",
+    "00.闪灵笔记/home.md",
+    "default new file/mod.md",
+    "default new file/miss mess mit.md",
+    "Calendar/Journal/Daily/2026-06-06.md",
+    "Bases/Calendar.base",
     "00.闪灵笔记/考研单词本.canvas",
-    "calculus/概率论",
-    "obsidian资源盘/考研资料/英语",
+    "Pasted image 20260603204528.png",
+    "default new file/mater.md",
+    "00.闪灵笔记/Claude Code 使用.md",
+    "PixPin_2026-06-06_10-19-42.png",
+    "00.闪灵笔记/git及github.md",
+    "PixPin_2026-06-06_10-06-34.png",
+    "default new file/第十一章 多元函数积分学.md",
+    "00.闪灵笔记/高数转pdf.md",
+    "PixPin_2026-05-31_19-36-28.png",
+    "default new file/斯托克斯公式.md",
+    "default new file/两类曲面积分的联系.md",
+    "default new file/高斯定理.md",
+    "default new file/投影法化二重积分.md",
+    "default new file/第二类积分性质.md",
+    "default new file/第二类积分物理意义.md",
+    "default new file/第二类曲面积分.md",
+    "default new file/第一类曲面积分计算方法-投影法.md",
+    "default new file/第一类曲面积分性质.md",
+    "default new file/第一类曲面积分的物理意义.md",
+    "default new file/第一类曲面积分.md",
+    "PixPin_2026-06-05_19-51-14.png",
+    "PixPin_2026-06-05_12-01-34.png",
+    "PixPin_2026-06-04_19-52-58.png",
+    "PixPin_2026-06-04_17-33-09.png",
+    "PixPin_2026-06-04_17-21-30.png",
+    "Pasted image 20260603204632.png",
     "obsidian资源盘/考研资料/高等数学/【横版】27考研Kira高数基础讲义做题本.pdf",
-    "obsidian资源盘/考研资料/线性代数/讲义/【一高数Kira】27考研线代基础讲义&习题-电子版.pdf",
-    "obsidian资源盘/考研资料/高等数学",
-    "Atlas/图片资源/PixPin_2026-05-18_15-32-28.png",
-    "Atlas/图片资源/PixPin_2026-05-18_15-29-30.png",
-    "Atlas/图片资源/PixPin_2026-05-18_15-25-39.png",
-    "Atlas/图片资源/PixPin_2026-05-18_15-25-22.png",
-    "Atlas/图片资源/PixPin_2026-05-18_15-24-39.png",
-    "obsidian资源盘/考研资料/线性代数/讲义/12.11-12.27 线代第二~六章 -板书合并版.pdf"
+    "obsidian资源盘/考研资料/高等数学/【一高数Kira】27考研概率统计基础讲义&习题-电子版.pdf",
+    "todo-timer-records",
+    "wallpaper",
+    "未命名.canvas",
+    "郭子仪漫画",
+    "calculus/概率论",
+    "obsidian资源盘/考研资料/英语"
   ]
 }

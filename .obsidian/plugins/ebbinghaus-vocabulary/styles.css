@@ -1,0 +1,756 @@
+/* styles.css — Ebbinghaus Vocabulary Plugin
+ *
+ * Design language: modern card-based UI with gentle shadows,
+ * rounded corners, and clean typography.  Adapts to Obsidian's
+ * light and dark colour schemes via CSS custom properties.
+ *
+ * Organisation:
+ *   1. CSS Custom Properties (theme-aware)
+ *   2. Sidebar Panel
+ *   3. Review Modal + Card Flip
+ *   4. Heatmap
+ *   5. Status Bar
+ *   6. Utilities
+ */
+
+/* ══════════════════════════════════════════════════════
+   1. CSS Custom Properties — theme-aware tokens
+   ══════════════════════════════════════════════════════ */
+
+.theme-light {
+  --ebbing-bg: #ffffff;
+  --ebbing-bg-secondary: #f6f8fa;
+  --ebbing-bg-hover: #f0f2f5;
+  --ebbing-border: #e1e4e8;
+  --ebbing-text: #24292f;
+  --ebbing-text-secondary: #656d76;
+  --ebbing-text-muted: #8b949e;
+  --ebbing-accent: #8250df;
+  --ebbing-accent-hover: #6a3fc4;
+  --ebbing-success: #1a7f37;
+  --ebbing-success-bg: #dafbe1;
+  --ebbing-warning: #9a6700;
+  --ebbing-warning-bg: #fff8c5;
+  --ebbing-danger: #cf222e;
+  --ebbing-danger-bg: #ffebe9;
+  --ebbing-card-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --ebbing-card-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --ebbing-modal-overlay: rgba(0, 0, 0, 0.4);
+  --ebbing-heatmap-empty: #ebedf0;
+}
+
+.theme-dark {
+  --ebbing-bg: #1e1e1e;
+  --ebbing-bg-secondary: #252526;
+  --ebbing-bg-hover: #2d2d2d;
+  --ebbing-border: #3e3e42;
+  --ebbing-text: #cccccc;
+  --ebbing-text-secondary: #999999;
+  --ebbing-text-muted: #6e6e6e;
+  --ebbing-accent: #9b6bff;
+  --ebbing-accent-hover: #b892ff;
+  --ebbing-success: #3fb950;
+  --ebbing-success-bg: rgba(63, 185, 80, 0.15);
+  --ebbing-warning: #d29922;
+  --ebbing-warning-bg: rgba(210, 153, 34, 0.15);
+  --ebbing-danger: #f85149;
+  --ebbing-danger-bg: rgba(248, 81, 73, 0.15);
+  --ebbing-card-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  --ebbing-card-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --ebbing-modal-overlay: rgba(0, 0, 0, 0.6);
+  --ebbing-heatmap-empty: #2d2d2d;
+}
+
+/* ══════════════════════════════════════════════════════
+   2. Sidebar Panel
+   ══════════════════════════════════════════════════════ */
+
+.ebbing-panel {
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: var(--font-interface);
+  color: var(--ebbing-text);
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* ── Stats Overview ── */
+
+.ebbing-stats-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.ebbing-stat-card {
+  background: var(--ebbing-bg-secondary);
+  border: 1px solid var(--ebbing-border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.ebbing-stat-value {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.ebbing-stat-label {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--ebbing-text-secondary);
+  margin-top: 2px;
+}
+
+.ebbing-stat-due .ebbing-stat-value { color: var(--ebbing-warning); }
+.ebbing-stat-new .ebbing-stat-value { color: var(--ebbing-accent); }
+.ebbing-stat-mastered .ebbing-stat-value { color: var(--ebbing-success); }
+
+/* ── Tabs ── */
+
+.ebbing-tabs {
+  display: flex;
+  gap: 4px;
+  background: var(--ebbing-bg-secondary);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.ebbing-tab {
+  flex: 1;
+  text-align: center;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  transition: background 0.15s, color 0.15s;
+  color: var(--ebbing-text-secondary);
+}
+
+.ebbing-tab:hover {
+  background: var(--ebbing-bg-hover);
+}
+
+.ebbing-tab-active {
+  background: var(--ebbing-bg);
+  color: var(--ebbing-text);
+  font-weight: 600;
+  box-shadow: var(--ebbing-card-shadow);
+}
+
+.ebbing-tab-label {
+  display: block;
+}
+
+.ebbing-tab-count {
+  display: block;
+  font-size: 0.7rem;
+  opacity: 0.7;
+  margin-top: 1px;
+}
+
+/* ── Word List ── */
+
+.ebbing-word-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 0;
+}
+
+.ebbing-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+  color: var(--ebbing-text-muted);
+}
+
+.ebbing-empty-state span {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.ebbing-empty-text {
+  font-size: 0.85rem;
+}
+
+/* ── Word Card ── */
+
+.ebbing-word-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--ebbing-bg-secondary);
+  border: 1px solid var(--ebbing-border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: background 0.15s, box-shadow 0.15s;
+  flex-shrink: 0;
+}
+
+.ebbing-word-card:hover {
+  background: var(--ebbing-bg-hover);
+  box-shadow: var(--ebbing-card-shadow);
+}
+
+.ebbing-word-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.ebbing-word-text {
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ebbing-word-meta {
+  font-size: 0.7rem;
+  color: var(--ebbing-text-muted);
+  margin-top: 2px;
+}
+
+.ebbing-word-time {
+  text-align: right;
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
+.ebbing-time {
+  font-size: 0.72rem;
+  color: var(--ebbing-text-muted);
+  white-space: nowrap;
+}
+
+.ebbing-overdue {
+  color: var(--ebbing-danger);
+  font-weight: 600;
+}
+
+.ebbing-mastered-check {
+  color: var(--ebbing-success);
+  font-size: 1rem;
+}
+
+/* ── Expanded detail ── */
+
+.ebbing-word-detail {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid var(--ebbing-border);
+  font-size: 0.78rem;
+}
+
+.ebbing-detail-row {
+  margin-bottom: 4px;
+  color: var(--ebbing-text-secondary);
+  line-height: 1.4;
+}
+
+.ebbing-detail-example {
+  font-style: italic;
+  color: var(--ebbing-text-muted);
+}
+
+.ebbing-detail-translation {
+  color: var(--ebbing-text-secondary);
+}
+
+/* ── CTA Button ── */
+
+.ebbing-cta-wrapper {
+  text-align: center;
+}
+
+.ebbing-cta-button {
+  width: 100%;
+  padding: 12px 20px;
+  background: var(--ebbing-accent);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+  box-shadow: 0 2px 8px rgba(130, 80, 223, 0.3);
+}
+
+.ebbing-cta-button:hover {
+  background: var(--ebbing-accent-hover);
+  transform: translateY(-1px);
+}
+
+.ebbing-cta-button:active {
+  transform: translateY(0);
+}
+
+.ebbing-notice {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: var(--ebbing-success-bg);
+  color: var(--ebbing-success);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  animation: ebbing-fade-in 0.3s ease;
+}
+
+/* ══════════════════════════════════════════════════════
+   3. Review Modal + Card Flip
+   ══════════════════════════════════════════════════════ */
+
+.ebbing-modal {
+  max-width: 500px;
+  width: 90vw;
+}
+
+.ebbing-modal .modal-close-button {
+  z-index: 10;
+}
+
+.ebbing-modal-content {
+  padding: 20px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* ── Progress ── */
+
+.ebbing-progress {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ebbing-progress-bar-wrapper {
+  flex: 1;
+  height: 4px;
+  background: var(--ebbing-bg-secondary);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.ebbing-progress-bar {
+  height: 100%;
+  background: var(--ebbing-accent);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.ebbing-progress-text {
+  font-size: 0.75rem;
+  color: var(--ebbing-text-muted);
+  white-space: nowrap;
+  min-width: 40px;
+  text-align: right;
+}
+
+/* ── Card Container (3D perspective) ── */
+
+.ebbing-card-container {
+  width: 100%;
+  max-width: 380px;
+  perspective: 1200px;
+}
+
+.ebbing-card-inner {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.ebbing-card-inner.ebbing-flipped {
+  transform: rotateY(180deg);
+}
+
+.ebbing-card-front,
+.ebbing-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 280px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px;
+  box-sizing: border-box;
+}
+
+/* ── Card Front ── */
+
+.ebbing-card-front {
+  background: var(--ebbing-bg);
+  border: 2px solid var(--ebbing-border);
+  box-shadow: var(--ebbing-card-shadow);
+  cursor: pointer;
+  gap: 16px;
+  transition: box-shadow 0.2s;
+}
+
+.ebbing-card-front:hover {
+  box-shadow: var(--ebbing-card-shadow-hover);
+}
+
+.ebbing-card-word {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--ebbing-text);
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.ebbing-card-hint {
+  font-size: 0.82rem;
+  color: var(--ebbing-text-muted);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.ebbing-card-front:hover .ebbing-card-hint {
+  opacity: 1;
+}
+
+/* ── Card Back ── */
+
+.ebbing-card-back {
+  background: var(--ebbing-bg);
+  border: 2px solid var(--ebbing-border);
+  box-shadow: var(--ebbing-card-shadow);
+  transform: rotateY(180deg);
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 10px;
+  overflow-y: auto;
+}
+
+.ebbing-card-word-back {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--ebbing-text);
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.ebbing-card-section {
+  background: var(--ebbing-bg-secondary);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.ebbing-card-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--ebbing-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+
+.ebbing-card-value {
+  font-size: 0.85rem;
+  color: var(--ebbing-text-secondary);
+  line-height: 1.5;
+}
+
+/* ── Feedback Buttons ── */
+
+.ebbing-card-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.ebbing-feedback-btn {
+  flex: 1;
+  padding: 10px 8px;
+  border: 1px solid var(--ebbing-border);
+  border-radius: 10px;
+  background: var(--ebbing-bg-secondary);
+  color: var(--ebbing-text);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s, border-color 0.15s;
+}
+
+.ebbing-feedback-btn:hover {
+  background: var(--ebbing-bg-hover);
+  transform: translateY(-1px);
+}
+
+.ebbing-feedback-btn:active {
+  transform: translateY(0);
+}
+
+.ebbing-feedback-correct:hover {
+  border-color: var(--ebbing-success);
+  background: var(--ebbing-success-bg);
+}
+
+.ebbing-feedback-fuzzy:hover {
+  border-color: var(--ebbing-warning);
+  background: var(--ebbing-warning-bg);
+}
+
+.ebbing-feedback-wrong:hover {
+  border-color: var(--ebbing-danger);
+  background: var(--ebbing-danger-bg);
+}
+
+.ebbing-card-keyhint {
+  font-size: 0.65rem;
+  color: var(--ebbing-text-muted);
+  text-align: center;
+  margin-top: 6px;
+}
+
+/* ── Summary ── */
+
+.ebbing-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 0;
+}
+
+.ebbing-summary-emoji {
+  font-size: 3rem;
+}
+
+.ebbing-summary-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ebbing-text);
+}
+
+.ebbing-summary-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  max-width: 240px;
+}
+
+.ebbing-summary-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 12px;
+  background: var(--ebbing-bg-secondary);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: var(--ebbing-text-secondary);
+}
+
+.ebbing-summary-accuracy {
+  font-weight: 600;
+  color: var(--ebbing-accent);
+}
+
+.ebbing-summary-close {
+  margin-top: 8px;
+  padding: 8px 32px;
+  background: var(--ebbing-accent);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.ebbing-summary-close:hover {
+  background: var(--ebbing-accent-hover);
+}
+
+/* ══════════════════════════════════════════════════════
+   4. Heatmap
+   ══════════════════════════════════════════════════════ */
+
+.ebbing-heatmap-wrapper {
+  flex-shrink: 0;
+}
+
+.ebbing-heatmap-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ebbing-text-secondary);
+  margin-bottom: 6px;
+}
+
+.ebbing-heatmap-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ebbing-heatmap-months {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.ebbing-heatmap-month-label {
+  font-size: 0.6rem;
+  color: var(--ebbing-text-muted);
+  min-width: 12px;
+  text-align: left;
+  padding-left: 1px;
+}
+
+.ebbing-heatmap-spacer {
+  width: 24px;
+  flex-shrink: 0;
+}
+
+.ebbing-heatmap-row {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.ebbing-heatmap-day-label {
+  width: 24px;
+  font-size: 0.6rem;
+  color: var(--ebbing-text-muted);
+  text-align: right;
+  padding-right: 3px;
+  flex-shrink: 0;
+}
+
+.ebbing-heatmap-cell {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  flex-shrink: 0;
+  transition: outline 0.1s;
+}
+
+.ebbing-heatmap-cell:hover {
+  outline: 2px solid var(--ebbing-accent);
+  outline-offset: 0;
+  z-index: 1;
+}
+
+.ebbing-heatmap-empty {
+  background: transparent;
+}
+
+/* ── Heatmap Tooltip ── */
+
+.ebbing-heatmap-tooltip {
+  position: fixed;
+  z-index: 9999;
+  background: var(--ebbing-bg);
+  border: 1px solid var(--ebbing-border);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 0.72rem;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ebbing-tooltip-date {
+  font-weight: 600;
+  color: var(--ebbing-text);
+  margin-bottom: 2px;
+}
+
+.ebbing-tooltip-reviews,
+.ebbing-tooltip-accuracy {
+  color: var(--ebbing-text-secondary);
+}
+
+/* ── Heatmap Legend ── */
+
+.ebbing-heatmap-legend {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3px;
+  margin-top: 6px;
+}
+
+.ebbing-heatmap-legend-label {
+  font-size: 0.6rem;
+  color: var(--ebbing-text-muted);
+  margin: 0 4px;
+}
+
+.ebbing-heatmap-legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+/* ══════════════════════════════════════════════════════
+   5. Status Bar
+   ══════════════════════════════════════════════════════ */
+
+.ebbing-status-bar {
+  cursor: pointer;
+  font-size: 0.82rem;
+  padding: 0 6px;
+  transition: opacity 0.15s;
+}
+
+.ebbing-status-bar:hover {
+  opacity: 0.8;
+}
+
+/* ══════════════════════════════════════════════════════
+   6. Animations & Utilities
+   ══════════════════════════════════════════════════════ */
+
+@keyframes ebbing-fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Scrollbar styling for side panel word list */
+.ebbing-word-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.ebbing-word-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ebbing-word-list::-webkit-scrollbar-thumb {
+  background: var(--ebbing-border);
+  border-radius: 2px;
+}
+
+.ebbing-word-list::-webkit-scrollbar-thumb:hover {
+  background: var(--ebbing-text-muted);
+}
+
+/* Card back scrollbar */
+.ebbing-card-back::-webkit-scrollbar {
+  width: 3px;
+}
+
+.ebbing-card-back::-webkit-scrollbar-thumb {
+  background: var(--ebbing-border);
+  border-radius: 2px;
+}

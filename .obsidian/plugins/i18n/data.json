@@ -241,8 +241,15 @@
   },
   "shareToken": "",
   "shareRepo": "",
-  "shareProfiles": [],
-  "shareActiveProfileId": "",
+  "shareProfiles": [
+    {
+      "id": "1780312216122",
+      "name": "默认账号",
+      "token": "",
+      "repo": "obsidian-translations"
+    }
+  ],
+  "shareActiveProfileId": "1780312216122",
   "reFlags": "gs",
   "reLength": 300,
   "reDatas": [

@@ -6,6 +6,14 @@
       "enabled": true
     }
   ],
+  "studyProgress": {
+    "en:word:discrimination": {
+      "status": "mastered",
+      "masteredAt": "2026-06-06 12:02",
+      "updatedAt": "2026-06-06 12:02"
+    }
+  },
+  "masteredMigrationVersion": 1,
   "showDefinitionOnHover": true,
   "enableAutoHighlight": true,
   "highlightStyle": "underline",
@@ -13,6 +21,7 @@
   "showMasteredInSidebar": true,
   "blurDefinitions": true,
   "ttsTemplate": "https://dict.youdao.com/dictvoice?audio={{word}}&type=2",
+  "pronunciationVariant": "us",
   "aiService": {
     "provider": "openai-compatible",
     "apiUrl": "https://api.deepseek.com",
@@ -31,6 +40,7 @@
   "highlightPaths": "",
   "fileNodeParseMode": "filename-with-alias",
   "enableSectionTabs": true,
+  "sidebarDefaultDisplayMode": "detail",
   "selectionTranslate": {
     "enabled": true,
     "targetLang": "zh-CN",

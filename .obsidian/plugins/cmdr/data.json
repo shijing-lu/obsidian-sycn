@@ -12,7 +12,14 @@
   "macros": [],
   "explorer": [],
   "hide": {
-    "statusbar": [],
+    "statusbar": [
+      "backlink",
+      "properties",
+      "obsidian-spaced-repetition",
+      "obsidian-spaced-repetition",
+      "obsidian-spaced-repetition",
+      "smart-connections"
+    ],
     "leftRibbon": [
       "新建数据库",
       "打开命令面板",

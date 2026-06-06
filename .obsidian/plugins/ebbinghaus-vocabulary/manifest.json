@@ -1,0 +1,10 @@
+{
+  "id": "ebbinghaus-vocabulary",
+  "name": "Ebbinghaus Vocabulary",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Smart vocabulary learning based on the Ebbinghaus forgetting curve. Review words at scientifically optimal intervals with an elegant card-based UI.",
+  "author": "",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

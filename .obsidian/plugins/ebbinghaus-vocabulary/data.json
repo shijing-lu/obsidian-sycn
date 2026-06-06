@@ -1,0 +1,27 @@
+{
+  "canvasPaths": [
+    "英语.canvas",
+    "考研单词本.canvas"
+  ],
+  "enableTwentyMin": true,
+  "enableOneHour": true,
+  "stageIntervals": [
+    "20m",
+    "1h",
+    "1d",
+    "2d",
+    "4d",
+    "7d",
+    "15d",
+    "30d"
+  ],
+  "dailyNewWordLimit": 20,
+  "heatmapColors": [
+    "#ebedf0",
+    "#9be9a8",
+    "#40c463",
+    "#30a14e",
+    "#216e39"
+  ],
+  "autoIncludeNewWords": true
+}
